@@ -1,0 +1,26 @@
+/**************************************
+	STYLING FOR MAART-FOLDER
+**************************************/
+
+//VARIABLES & MIXINS
+@import "partials/vars-mixins";
+
+//BASE
+@import "partials/base";
+
+#lp-folder-wrapper{
+	font-size: 16px;
+	margin-bottom: 4em;
+	padding-bottom: 1px;
+//LAYOUT
+@import "partials/layout";
+
+//MODULES
+@import "partials/modules";
+
+//STATE
+@import "partials/state";
+
+//THEME
+@import "partials/theme";
+}
