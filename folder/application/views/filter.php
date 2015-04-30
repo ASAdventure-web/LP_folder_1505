@@ -9,21 +9,7 @@
 <body>
 	<div id="lp-folder-wrapper">
 		<!-- filermenu -->
-		<ul class="main-menu">
-		<?php foreach ($links as $link) { ?>
-			<li>
-				<?php if ($link["pagina"] === $active) {
-					echo $link["pagina"];
-
-				} 
-				else { ?>
-					<a href="<?php echo $link["url"]; ?>">
-					<?php echo $link["pagina"]; ?>
-					</a>
-				<?php } ?>
-			</li>
-		<?php } ?>
-		</ul>
+		<?php include 'includes/filermenu.php'; ?>
 		<!-- start eerste contentrow -->
 		<div class="content-row">
 		<!-- loop door producten -->
