@@ -1,4 +1,7 @@
 //VARIABLES
+//*********
+
+//breakpoinst
 $desktop: 1200px;
 $desktop-wrapper: 1170px;
 
@@ -11,6 +14,7 @@ $tablet-portrait-wrapper: 724px;
 $mobile: 767px;
 $mobile-wrapper: 100%;
 
+//grid
 $num-cols: 12;
 $mob-num-cols: 2;
 $num-gutters: $num-cols - 1;
@@ -24,7 +28,12 @@ $mob-col-width: ($mobile-wrapper - ($mob-gutter-width * ($mob-num-cols - 1))) / 
 $row-height: 421px;
 $max-row-height: 2;
 
+//colors
+$accent: #EA8C15;
+
+
 //MIXINS
+//******
 
 @mixin desktop{
 	@media only screen and(min-width: #{$desktop}){

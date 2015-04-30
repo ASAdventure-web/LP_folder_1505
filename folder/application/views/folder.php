@@ -20,7 +20,6 @@
 
 		<!-- start eerste contentrow -->
 		<div class="content-row">
-
 			<!-- loop door producten -->
 			<?php foreach ($products as $product) { ?>
 				<!--Indien nieuwe categorie-->

@@ -1,3 +1,10 @@
+//MAIN MENU
+.main-menu{
+	background: #ffffff;
+	color: $accent;
+}
+
+
 //CONTENT ROW
 .content-row, .content-block{
 	&.z-shadow{
@@ -76,8 +83,8 @@
 .bottom-container{
 	.price-tag{
 		.special{
-			background: #AF151E;
-			color: #efefef;
+			background: $accent;
+			color: #fff;
 			font-size: .75em;
 			line-height: 1.5;
 			text-transform: uppercase;
@@ -91,7 +98,7 @@
 			text-decoration: line-through;
 		}
 		.new-price{
-			color: #AF151E;
+			color: $accent;
 			font-size: 1.6em;
 			font-weight: 600 !important;
 			line-height: 1;
