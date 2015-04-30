@@ -4,29 +4,12 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Folder maart 2015 - Werktitel</title>
-	<link rel="stylesheet" href="http://static.asadventure.com/includes/landingpage/lentefolder2015/stylesheets/css/folder-maart.css">
-	<script src="http://static.asadventure.com/includes/landingpage/lentefolder2015/bower_components/lazyloadxt/dist/jquery.lazyloadxt.min.js"></script>
-	<script src="http://static.asadventure.com/includes/landingpage/lentefolder2015/bower_components/lazyloadxt/dist/jquery.lazyloadxt.bg.min.js"></script>
-	<script src="http://static.asadventure.com/includes/landingpage/lentefolder2015/scripts/filtering.min.js"></script>
+	<?php include 'includes/links.php'; ?>
 </head>
 <body>
 	<div id="lp-folder-wrapper">
 		<!-- filermenu -->
-		<ul class="main-menu">
-		<?php foreach ($links as $link) { ?>
-			<li>
-				<?php if ($link["pagina"] === $active) {
-					echo $link["pagina"];
-
-				} 
-				else { ?>
-					<a href="<?php echo $link["url"]; ?>">
-					<?php echo $link["pagina"]; ?>
-					</a>
-				<?php } ?>
-			</li>
-		<?php } ?>
-		</ul>
+		<?php include 'includes/filermenu.php'; ?>
 		<!-- start eerste contentrow -->
 		<div class="content-row">
 		<!-- loop door producten -->
