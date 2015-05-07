@@ -1,5 +1,5 @@
 <!-- print lookbookimage -->
-<?php if(isset($product['lookbook'])) { ?>
+<?php if(isset($product['actie'])) { ?>
 	<div class="col-3 row-1 product-container lookbook" data-bg="http://static.asadventure.com/includes/landingpage/2015_zomerfolder/images/producten/<?php echo $product['img'] ?>">
 		<a href="<?php echo $product['link'] ?>">
 			<span>
@@ -10,18 +10,18 @@
 			</button>
 <?php	}  else {?>
 <!-- print product -->
-<div class="col-3 row-1 product-container <?php if(isset($product['exclusief'])) { print(' exclusive-nl'); } if (isset($product['uitverkocht'])) { print(' sold-out-nl'); }?>">
+<div class="col-3 row-1 product-container <?php if(isset($product['exclusief'])) { print(' exclusive-nl'); } if (isset($product['uitverkocht'])) { print(' sold-out-nl'); } if (isset($product['groeneprijs'])) { print(' groeneprijs'); } if (isset($product['2plus1'])) { print(' tshirts'); }?>">
 	<a href="<?php echo $product['link'] ?>" alt="<?php echo $product['productnaam'] ?>" class="contentlink">
 		<img class="product-image" data-src="http://static.asadventure.com/includes/landingpage/2015_zomerfolder/images/producten/<?php echo $product['img'] ?>" title="<?php echo $product['productnaam'].' '.$product['productomschrijving'] ?>">
 		<div class="bottom-container">
 			<div class="price-tag">
-				<?php if(isset($product['specialeactie'])) { ?>
+				<?php if(strlen($product['specialeactie'])>0) { ?>
 				<p class="special"><?php echo $product['specialeactie'] ?></p>
 				<?php } 
-				if(isset($product['oudeprijs'])) { ?>
+				if(strlen($product['oudeprijs'])>0) { ?>
 				<p class="barred-price">&euro; <?php echo $product['oudeprijs'] ?></p>
 				<?php } ?>
-				<?php if(isset($product['nieuweprijs'])) { ?>
+				<?php if(strlen($product['nieuweprijs'])>0) { ?>
 				<p class="new-price"><span class="currency">&euro;</span><?php echo $product['nieuweprijs'] ?></p>	
 				<?php } ?>
 			</div>
@@ -29,7 +29,7 @@
 			
 			<div class="logo-container">
 				<img data-src="http://static.asadventure.com/includes/landingpage/2015_zomerfolder/images/merken/<?php echo $product['logo'] ?>" alt="<?php echo $product['merknaam'] ?>" class="logo">
-				<?php if(isset($product['kleur'])) { ?>
+				<?php if(strlen($product['kleur'])>0) { ?>
 				<div class="swatch-container">
 					<?php $kleuren = explode(" ", $product['kleur']); 
 						foreach ($kleuren as $kleur) { 
