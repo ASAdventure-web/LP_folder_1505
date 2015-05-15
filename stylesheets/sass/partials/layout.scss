@@ -52,6 +52,7 @@
 //MAIN MENU
 .main-menu{
 	display: flex;
+	justify-content: center;
 	font-weight: bold;
 	margin: 0;
 	padding: 2em 0;
@@ -66,7 +67,7 @@
 		box-sizing: border-box;
 		float: left;
 		list-style-type: none;
-		padding: 0 1.2em;
+		padding: 0 1.1em;
 		&:first-child{
 			border-right: 1px solid #9b9b9b;
 		}
