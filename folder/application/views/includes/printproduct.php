@@ -1,13 +1,7 @@
 <!-- print lookbookimage -->
 <?php if(isset($product['actie'])) { ?>
-	<div class="col-3 row-1 product-container lookbook" data-bg="http://static.asadventure.com/includes/landingpage/2015_zomerfolder/images/producten/<?php echo $product['img'] ?>">
-		<a href="<?php echo $product['link'] ?>">
-			<span>
-				<?php echo $product['productnaam'] ?>
-			</span>
-			<button>
-				Naar de lookbook
-			</button>
+	<div class="col-3 row-1 product-container lookbook" data-bg="http://static.asadventure.com/includes/landingpage/2015_zomerfolder/images/acties/<?php echo $product['img'] ?>">
+		<a href="<?php echo $product['link'] ?>" title="<?php echo $product['productomschrijving'] ?>">
 <?php	}  else {?>
 <!-- print product -->
 <div class="col-3 row-1 product-container <?php if(isset($product['exclusief'])) { print(' exclusive-nl'); } if (isset($product['uitverkocht'])) { print(' sold-out-nl'); } if (isset($product['groeneprijs'])) { print(' groeneprijs'); } if (isset($product['2plus1'])) { print(' tshirts'); }?>">

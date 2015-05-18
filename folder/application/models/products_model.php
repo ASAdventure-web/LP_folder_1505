@@ -11,7 +11,7 @@ class Products_model extends CI_Model {
 
 		if ($filter === FALSE) {
 			if ($lang === 'nl'){
-				$query = $this->db->query("SELECT `Products_test`.*, `Merken`.* FROM (`Products_test`) LEFT JOIN `Merken` ON `Products_test`.`merk` = `Merken`.`merknaam` order by volgorde ASC");
+				$query = $this->db->query("SELECT `Products_test`.*, `Merken`.* FROM (`Products_test`) LEFT JOIN `Merken` ON `Products_test`.`merk` = `Merken`.`merknaam` WHERE `Products_test`.`categorie` <> '2plus1' ORDER BY FIELD(Products_test.categorie,'travel','trekking','camping','beach', 'fietsen'), volgorde ASC");
 				return $query->result_array();
 			}
 			else {
