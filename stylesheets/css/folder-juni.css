@@ -299,10 +299,11 @@ form {
   display: table; }
 .content-row .product-container.lookbook, .content-block .product-container.lookbook {
   background-repeat: no-repeat !important;
-  background-size: cover !important; }
+  background-size: auto 100% !important;
+  background-position: center; }
   @media only screen and (max-width: 767px) {
     .content-row .product-container.lookbook, .content-block .product-container.lookbook {
-      background-size: cover !important; } }
+      background-size: auto 100% !important; } }
   .content-row .product-container.lookbook a, .content-row .product-container.lookbook span, .content-row .product-container.lookbook button, .content-block .product-container.lookbook a, .content-block .product-container.lookbook span, .content-block .product-container.lookbook button {
     display: block; }
   .content-row .product-container.lookbook a, .content-block .product-container.lookbook a {
