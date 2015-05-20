@@ -16,7 +16,7 @@ class Photo_model extends CI_Model {
 			return $query->result_array();
 		}
 		else {
-		$query = $this->db->query("SELECT * FROM Fotos WHERE ".$filter." IS NOT NULL");
+		$query = $this->db->query("SELECT * FROM Fotos WHERE ".$filter." IS NOT NULL ORDER BY $filter" );
 		return $query->result_array();
 
 		}
