@@ -497,6 +497,11 @@ img {
   -webkit-transform: rotate(-5deg);
       -ms-transform: rotate(-5deg);
           transform: rotate(-5deg); }
+.content-row .product-container.groeneprijs .bottom-container .groeneprijstext, .content-block .product-container.groeneprijs .bottom-container .groeneprijstext {
+  background: #9BC250;
+  text-decoration: underline; }
+.content-row .product-container.groeneprijs .bottom-container .price-tag .new-price, .content-block .product-container.groeneprijs .bottom-container .price-tag .new-price {
+  color: #9BC250; }
 .content-row .product-container.sold-out-nl::before, .content-row .product-container.sold-out-fr::before, .content-row .product-container.sold-out-en::before, .content-block .product-container.sold-out-nl::before, .content-block .product-container.sold-out-fr::before, .content-block .product-container.sold-out-en::before {
   background: rgba(0, 0, 0, 0.7);
   color: #ffffff;

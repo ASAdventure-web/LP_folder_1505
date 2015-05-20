@@ -11,8 +11,11 @@
 			<div class="price-tag">
 				<?php if(strlen($product['specialeactie'])>0) { ?>
 				<p class="special"><?php echo $product['specialeactie'] ?></p>
-				<?php } 
-				if(strlen($product['oudeprijs'])>0) { ?>
+				<?php } ?>
+				<?php if (isset($product['groeneprijs'])) { ?>
+				<p class="special groeneprijstext">Groene voordeelprijs</p>
+				<?php } ?>
+				<?php if(strlen($product['oudeprijs'])>0) { ?>
 				<p class="barred-price">&euro; <?php echo $product['oudeprijs'] ?></p>
 				<?php } ?>
 				<?php if(strlen($product['nieuweprijs'])>0) { ?>
