@@ -25,19 +25,23 @@
 				<!--Indien nieuwe categorie-->
 				<?php if ($product["categorie"] != $categorie) { ?>
 					<!-- rij afwerken -->
-					<?php if(( $count % 4 ) != 0 ) { 
-						if ($gridcount % 3 == 0) {
-							$photocount++;
-						}
-						$gridcount++; 
-					} ?>
+
 					<?php while(( $count % 4 ) != 0 ) { ?>
 							<?php include 'includes/foto.php'; ?>
 							<div class="col-3 row-1 product-container lookbook"></div>
-							<?php $count++;} ?>
-						</div>
-					<!-- nieuwe rij initialiseren -->
-					<div class="content-row z-shadow">
+							<?php $count++;
+							if ( $count % 4 == 0 ) {
+									if ($gridcount % 3 == 0) {
+										$photocount++;
+									}
+									$gridcount++; }
+							}
+
+							 ?>
+							</div>
+
+							<div class="content-row z-shadow">
+
 					<!-- categorie herdefiniëren -->
 						<?php $categorie = $product["categorie"]; ?>
 						<img data-src="http://static.asadventure.com/includes/landingpage/lentefolder2015/images/tussentitels/<?php echo strtolower($categorie) ?>.jpg">

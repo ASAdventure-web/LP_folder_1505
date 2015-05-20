@@ -19,7 +19,7 @@
   font-style: normal;
   font-weight: 400; }
 #lp-folder-wrapper {
-  font-size: 16px;
+  font-size: 15.5px;
   margin-bottom: 4em;
   padding-bottom: 1px;
   background: #ddd;
@@ -212,7 +212,14 @@
       height: 521px; } }
 
 .main-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: bold;
   margin: 0;
   padding: 2em 0;
@@ -226,7 +233,7 @@
     box-sizing: border-box;
     float: left;
     list-style-type: none;
-    padding: 0 1.2em; }
+    padding: 0 1.1em; }
     .main-menu li:first-child {
       border-right: 1px solid #9b9b9b; }
     .main-menu li:nth-last-child(3) {
@@ -243,7 +250,8 @@
     font-weight: 400;
     height: 100%;
     text-decoration: none;
-    transition: .1s color linear; }
+    -webkit-transition: .1s color linear;
+            transition: .1s color linear; }
     .main-menu a:hover {
       color: #252525; }
   @media only screen and (max-width: 767px) {
@@ -291,17 +299,19 @@ form {
   display: table; }
 .content-row .product-container.lookbook, .content-block .product-container.lookbook {
   background-repeat: no-repeat !important;
-  background-size: cover !important; }
+  background-size: auto 100% !important;
+  background-position: center; }
   @media only screen and (max-width: 767px) {
     .content-row .product-container.lookbook, .content-block .product-container.lookbook {
-      background-size: cover !important; } }
+      background-size: auto 100% !important; } }
   .content-row .product-container.lookbook a, .content-row .product-container.lookbook span, .content-row .product-container.lookbook button, .content-block .product-container.lookbook a, .content-block .product-container.lookbook span, .content-block .product-container.lookbook button {
     display: block; }
   .content-row .product-container.lookbook a, .content-block .product-container.lookbook a {
     background: none;
     height: 100%;
     text-decoration: none;
-    transition: background .1s linear; }
+    -webkit-transition: background .1s linear;
+            transition: background .1s linear; }
     .content-row .product-container.lookbook a:hover, .content-block .product-container.lookbook a:hover {
       background: rgba(255, 255, 255, 0.2); }
       @media only screen and (max-width: 1199px) {
@@ -339,7 +349,8 @@ form {
     padding: .7em 1em;
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
-    transition: background .2s linear; }
+    -webkit-transition: background .2s linear;
+            transition: background .2s linear; }
     .content-row .product-container.lookbook button:active, .content-row .product-container.lookbook button:hover, .content-block .product-container.lookbook button:active, .content-block .product-container.lookbook button:hover {
       outline: none; }
     .content-row .product-container.lookbook button:hover, .content-block .product-container.lookbook button:hover {
@@ -483,7 +494,14 @@ img {
   line-height: 1;
   text-align: center;
   text-rendering: optimizeLegibility;
-  transform: rotate(-5deg); }
+  -webkit-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+          transform: rotate(-5deg); }
+.content-row .product-container.groeneprijs .bottom-container .groeneprijstext, .content-block .product-container.groeneprijs .bottom-container .groeneprijstext {
+  background: #9BC250;
+  text-decoration: underline; }
+.content-row .product-container.groeneprijs .bottom-container .price-tag .new-price, .content-block .product-container.groeneprijs .bottom-container .price-tag .new-price {
+  color: #9BC250; }
 .content-row .product-container.sold-out-nl::before, .content-row .product-container.sold-out-fr::before, .content-row .product-container.sold-out-en::before, .content-block .product-container.sold-out-nl::before, .content-block .product-container.sold-out-fr::before, .content-block .product-container.sold-out-en::before {
   background: rgba(0, 0, 0, 0.7);
   color: #ffffff;

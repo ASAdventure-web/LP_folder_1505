@@ -16,8 +16,8 @@ class Products extends CI_Controller {
 		
 		$data['products'] = $this->products_model->get_products($lang);
 		$data['photos'] = $this->photo_model->get_photos();
-		$data['links'] = $this->links_model->get_links();	
-		$data['active'] = "Alle folderproducten";
+		$data['links'] = $this->links_model->get_links($lang);	
+		$data['active'] = "alles";
 		$data['count'] = 0;
 		$data['gridcount'] = 0;
 		$data['photocount'] = 0;
@@ -41,5 +41,42 @@ class Products extends CI_Controller {
 
 		$this->load->view('filter', $data);
 	}
+
+	public function filter2()
+	{
+		$lang = $this->uri->segment(1);
+		$page = $this->uri->segment(2);
+
+		$data['products'] = $this->products_model->get_products($lang, $page, "junior");
+		$data['photos'] = $this->photo_model->get_photos($page);
+		$data['links'] = $this->links_model->get_links();	
+		$data['active'] = $page;
+		$data['count'] = 0;
+		$data['gridcount'] = 0;
+		$data['photocount'] = 0;
+		$data['categorie'] = "adults";
+		$data['secondfilter'] = "junior";
+
+		$this->load->view('filter2', $data);
+	}
+
+	public function uitrusting()
+	{
+		$lang = $this->uri->segment(1);
+		$page = $this->uri->segment(2);
+
+		$data['products'] = $this->products_model->get_products($lang, $page, "camping");
+		$data['photos'] = $this->photo_model->get_photos($page);
+		$data['links'] = $this->links_model->get_links();	
+		$data['active'] = $page;
+		$data['count'] = 0;
+		$data['gridcount'] = 0;
+		$data['photocount'] = 0;
+		$data['categorie'] = "uitrusting";
+		$data['secondfilter'] = "camping";
+
+		$this->load->view('filter2', $data);
+	}
+
 
 }
