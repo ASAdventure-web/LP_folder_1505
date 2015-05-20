@@ -40,12 +40,9 @@
 
 $route['default_controller'] = '';
 $route[':any/alles'] = 'products';
-$route[':any/junior'] = 'products/filter';
-$route[':any/heren'] = 'products/filter';
-$route[':any/dames'] = 'products/filter';
-$route[':any/fietsen'] = 'products/filter';
+$route[':any/badmode'] = 'products/filter2';
 $route[':any/uitrusting'] = 'products/uitrusting';
-$route[':any/:any'] = 'products/filter2';
+$route[':any/:any'] = 'products/filter';
 
 
 /* End of file routes.php */
