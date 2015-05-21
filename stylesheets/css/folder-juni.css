@@ -212,14 +212,8 @@
       height: 521px; } }
 
 .main-menu {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   font-weight: bold;
   margin: 0;
   padding: 2em 0;
@@ -250,8 +244,7 @@
     font-weight: 400;
     height: 100%;
     text-decoration: none;
-    -webkit-transition: .1s color linear;
-            transition: .1s color linear; }
+    transition: .1s color linear; }
     .main-menu a:hover {
       color: #252525; }
   @media only screen and (max-width: 767px) {
@@ -310,8 +303,7 @@ form {
     background: none;
     height: 100%;
     text-decoration: none;
-    -webkit-transition: background .1s linear;
-            transition: background .1s linear; }
+    transition: background .1s linear; }
     .content-row .product-container.lookbook a:hover, .content-block .product-container.lookbook a:hover {
       background: rgba(255, 255, 255, 0.2); }
       @media only screen and (max-width: 1199px) {
@@ -349,8 +341,7 @@ form {
     padding: .7em 1em;
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
-    -webkit-transition: background .2s linear;
-            transition: background .2s linear; }
+    transition: background .2s linear; }
     .content-row .product-container.lookbook button:active, .content-row .product-container.lookbook button:hover, .content-block .product-container.lookbook button:active, .content-block .product-container.lookbook button:hover {
       outline: none; }
     .content-row .product-container.lookbook button:hover, .content-block .product-container.lookbook button:hover {
@@ -442,6 +433,10 @@ img {
     padding: .1em .4em; }
   .bottom-container .price-tag .barred-price, .bottom-container .price-tag .new-price {
     margin: .1em 0; }
+  .bottom-container .price-tag .new-price sub {
+    vertical-align: baseline;
+    font-size: 0.7em;
+    margin-left: -4px; }
   .bottom-container .price-tag .currency {
     margin-right: .2em; }
   .bottom-container h3 {
@@ -494,9 +489,7 @@ img {
   line-height: 1;
   text-align: center;
   text-rendering: optimizeLegibility;
-  -webkit-transform: rotate(-5deg);
-      -ms-transform: rotate(-5deg);
-          transform: rotate(-5deg); }
+  transform: rotate(-5deg); }
 .content-row .product-container.groeneprijs .bottom-container .groeneprijstext, .content-block .product-container.groeneprijs .bottom-container .groeneprijstext {
   background: #9BC250;
   text-decoration: underline; }
