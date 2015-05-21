@@ -3631,6 +3631,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/acties\/2plus1_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56231,
+		"inputAbbreviatedPath": "\/images\/acties\/2plus1_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/2plus1_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/acties\/groeneprijs.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3638,6 +3649,28 @@
 		"initialSize": 38345,
 		"inputAbbreviatedPath": "\/images\/acties\/groeneprijs.jpg",
 		"outputAbbreviatedPath": "\/images\/acties\/groeneprijs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/groeneprijs_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28085,
+		"inputAbbreviatedPath": "\/images\/acties\/groeneprijs_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/groeneprijs_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/groeneprijs_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 30526,
+		"inputAbbreviatedPath": "\/images\/acties\/groeneprijs_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/groeneprijs_FR.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3653,6 +3686,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/acties\/reef.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61969,
+		"inputAbbreviatedPath": "\/images\/acties\/reef.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/reef.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/reef_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65300,
+		"inputAbbreviatedPath": "\/images\/acties\/reef_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/reef_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/acties\/teva.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -3660,6 +3715,28 @@
 		"initialSize": 83650,
 		"inputAbbreviatedPath": "\/images\/acties\/teva.jpg",
 		"outputAbbreviatedPath": "\/images\/acties\/teva.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/teva_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80728,
+		"inputAbbreviatedPath": "\/images\/acties\/teva_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/teva_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/teva_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 83553,
+		"inputAbbreviatedPath": "\/images\/acties\/teva_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/teva_FR.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
