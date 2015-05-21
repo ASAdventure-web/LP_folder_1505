@@ -16,10 +16,22 @@
 				<p class="special groeneprijstext">Groene voordeelprijs</p>
 				<?php } ?>
 				<?php if(strlen($product['oudeprijs'])>0) { ?>
+
 				<p class="barred-price">&euro; <?php echo $product['oudeprijs'] ?></p>
 				<?php } ?>
 				<?php if(strlen($product['nieuweprijs'])>0) { ?>
-				<p class="new-price"><span class="currency">&euro;</span><?php echo $product['nieuweprijs'] ?></p>	
+									<?php 
+					$price = $product['nieuweprijs'];
+					$comma = substr($price,-3,-2);
+
+						if ($comma == ',') {
+						$price_smal = substr($price, -2);
+						$price_big = substr($price,0 ,-3); ?>
+						<p class='new-price'>&euro; <?php echo $price_big ?> <sub> <?php echo $price_smal ?> </sub></p>
+					<?php } else { 
+						?> <p class='new-price'>&euro; <?php echo $price?></p>
+					<?php } ?>
+					
 				<?php } ?>
 			</div>
 			<h3><?php echo $product['productnaam'] ?> <span class="product-category"><?php echo $product['productomschrijving'] ?></span></h3>

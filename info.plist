@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>7C918781-939D-4586-B6D5-227F776B75E6</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>9C1D2536-0590-42B6-B9E9-C386E8DC33EF</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Kristof Hermans - Maaike Ongena</string>
+	<key>description</key>
+	<string>Automatic export of pages from mvc-model</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Export folderpages</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>export</string>
+				<key>text</key>
+				<string>Html export</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>7C918781-939D-4586-B6D5-227F776B75E6</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>escaping</key>
+				<integer>0</integer>
+				<key>script</key>
+				<string>
+
+cd ~/Documents/GIT/LP_folder_1505/html/
+wget -O 1835_NL.html "http://localhost:8888/folder/index.php/nl/alles"
+wget -O 1836_NL.html "http://localhost:8888/folder/index.php/nl/fashion"
+wget -O 1837_NL.html "http://localhost:8888/folder/index.php/nl/outdoor"
+wget -O 1838_NL.html "http://localhost:8888/folder/index.php/nl/uitrusting"
+wget -O 1839_NL.html "http://localhost:8888/folder/index.php/nl/fietsen"
+wget -O 1840_NL.html "http://localhost:8888/folder/index.php/nl/badmode"
+wget -O 1841_NL.html "http://localhost:8888/folder/index.php/nl/2plus1"
+wget -O 1842_NL.html "http://localhost:8888/folder/index.php/nl/dames"
+wget -O 1843_NL.html "http://localhost:8888/folder/index.php/nl/heren"
+wget -O 1844_NL.html "http://localhost:8888/folder/index.php/nl/junior"
+
+
+
+
+
+
+
+</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.terminalcommand</string>
+			<key>uid</key>
+			<string>9C1D2536-0590-42B6-B9E9-C386E8DC33EF</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>7C918781-939D-4586-B6D5-227F776B75E6</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+		<key>9C1D2536-0590-42B6-B9E9-C386E8DC33EF</key>
+		<dict>
+			<key>ypos</key>
+			<real>10</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>

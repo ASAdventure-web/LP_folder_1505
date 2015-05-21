@@ -312,7 +312,7 @@ img{
 	box-sizing: border-box;
 	padding: 0 4%;
 	position: absolute;
-		bottom: 0;
+	bottom: 0;
 	width: 100%;
 	.price-tag{
 		.special{
@@ -322,6 +322,11 @@ img{
 		}
 		.barred-price, .new-price{
 			margin: .1em 0;
+		}
+		.new-price sub{
+			vertical-align: baseline;
+ 			font-size: 0.7em;
+  			margin-left: -4px;
 		}
 		.currency{
 			margin-right: .2em;
