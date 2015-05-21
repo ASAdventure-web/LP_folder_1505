@@ -41,6 +41,7 @@
 $route['default_controller'] = '';
 $route[':any/alles'] = 'products';
 $route[':any/badmode'] = 'products/filter2';
+$route[':any/2plus1'] = 'products/damesheren';
 $route[':any/uitrusting'] = 'products/uitrusting';
 $route[':any/:any'] = 'products/filter';
 

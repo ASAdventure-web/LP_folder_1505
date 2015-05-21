@@ -6238,6 +6238,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/producten\/COLEMAN_DARWIN_3PLUS_MATRAS.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20397,
+		"inputAbbreviatedPath": "\/images\/producten\/COLEMAN_DARWIN_3PLUS_MATRAS.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/COLEMAN_DARWIN_3PLUS_MATRAS.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/producten\/COLEMAN_LAKESIDE-4-DELUXE_1142c50005_5050_01_be.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -6278,6 +6289,28 @@
 		"initialSize": 8531,
 		"inputAbbreviatedPath": "\/images\/producten\/COLEMAN_LAKESIDE-6-DELUXE_1152c50002_5050_02_be.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/COLEMAN_LAKESIDE-6-DELUXE_1152c50002_5050_02_be.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/COLEMAN_VESP_4_PARTY_GRILL.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20911,
+		"inputAbbreviatedPath": "\/images\/producten\/COLEMAN_VESP_4_PARTY_GRILL.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/COLEMAN_VESP_4_PARTY_GRILL.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/COLEMAN_VESP_6_PARTY_GRILL.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20956,
+		"inputAbbreviatedPath": "\/images\/producten\/COLEMAN_VESP_6_PARTY_GRILL.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/COLEMAN_VESP_6_PARTY_GRILL.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -6531,6 +6564,28 @@
 		"initialSize": 47953,
 		"inputAbbreviatedPath": "\/images\/producten\/EIDER_MOORE_3315C52049_6163.jpg",
 		"outputAbbreviatedPath": "\/images\/producten\/EIDER_MOORE_3315C52049_6163.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/GOPRO_4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25106,
+		"inputAbbreviatedPath": "\/images\/producten\/GOPRO_4.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/GOPRO_4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/producten\/GOPRO_4_BLACK.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24492,
+		"inputAbbreviatedPath": "\/images\/producten\/GOPRO_4_BLACK.jpg",
+		"outputAbbreviatedPath": "\/images\/producten\/GOPRO_4_BLACK.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
