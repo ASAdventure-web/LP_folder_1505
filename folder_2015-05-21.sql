@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.38)
 # Database: folder
-# Generation Time: 2015-05-21 07:36:55 +0000
+# Generation Time: 2015-05-21 08:17:35 +0000
 # ************************************************************
 
 
@@ -745,9 +745,9 @@ VALUES
 	(5,'Selfiestick','Kit','Azuri','4T7A0113.jpg','','24,95','19','','',NULL,NULL,NULL,NULL,13,13,NULL,NULL,NULL,13,NULL,NULL,NULL,'camping',13,NULL),
 	(6,'Universal 180¡','Fish Eye lens','Black Eye','BLACK-EYE_UNIVERSAL-FISH-EYE_2g52c50007_0101_01_be_Ver1.jpg','/black-eye-e-gadget-the-original-180-fisheye-lens-2h61c52007','','29,95','','',NULL,NULL,NULL,NULL,16,16,NULL,NULL,NULL,16,NULL,NULL,NULL,'camping',16,NULL),
 	(7,'Clipper','Wide angle lens','Black Eye','BLACK-EYE_CLIPPER-WIDE-ANGLE_2g52c50008_0101_02_be_Ver1-copy.jpg','/black-eye-e-gadget-clipper-wide-angle-2h61c52008','','44,95','','',NULL,NULL,NULL,NULL,19,19,NULL,NULL,NULL,19,NULL,NULL,NULL,'camping',19,NULL),
-	(8,'Darwin 3','en Maxi Comfort Luchtmatras','Coleman','','','159,9','99','','Setprijs',NULL,NULL,NULL,NULL,22,22,NULL,NULL,NULL,22,22,NULL,NULL,'camping',22,NULL),
+	(8,'Darwin 3','en Maxi Comfort Luchtmatras','Coleman','COLEMAN_DARWIN_3PLUS_MATRAS.jpg','','159,9','99','','Setprijs',NULL,NULL,NULL,NULL,22,22,NULL,NULL,NULL,22,22,NULL,NULL,'camping',22,NULL),
 	(9,'Moji','Campinglamp','Black Diamond','BLACK-DIAMOND_MOJI_2541c50002_4040_01.jpg_be-copy.jpg','/black-diamond-lantaarn-moji-light-2931c52002','','19,95','#E6E546 #1A74B4','Gebruik je ecocheques',NULL,NULL,NULL,NULL,25,25,NULL,NULL,NULL,25,25,NULL,NULL,'camping',25,NULL),
-	(10,'Hero 4','Camera','GoPro','','','','','','Gratis bundle t.w.v. &euro;59,95',NULL,NULL,NULL,NULL,28,28,NULL,NULL,NULL,NULL,NULL,NULL,28,'camping',28,NULL),
+	(10,'Hero 4 Silver','Camera','GoPro','GOPRO_4.jpg','','','429','','Gratis bundle t.w.v. &euro;59,95',NULL,NULL,NULL,NULL,28,28,NULL,NULL,NULL,NULL,NULL,NULL,28,'camping',28,NULL),
 	(11,'Moore','Shirt Heren','Eider','EIDER_MOORE_3315C52049_6161.jpg','','64,95','39','#BAB2AF moore.jpg','',NULL,NULL,1,NULL,NULL,56,NULL,NULL,56,NULL,NULL,NULL,NULL,'travel',56,NULL),
 	(12,'Refractor','Duffle Pack','The North Face','THE-NORTH-FACE_REFRACTOR-DUFFEL-PACK_2146c50001_7070_01_be-copy.jpg','/the-north-face-trolley-refractor-duffle-pack-2261c52001','164,95','99','#323036','',NULL,NULL,NULL,NULL,34,34,NULL,NULL,NULL,34,34,NULL,NULL,'travel',34,NULL),
 	(13,'Flyweight pack','Dagrugzak 17l','The North Face','THE-NORTH-FACE_FLYWEIGHT-PACK_2111c10013_7071_53.jpg','/the-north-face-dagrugzak-flyweight-2111C10013','44,95','29','#302F33','',NULL,NULL,NULL,NULL,37,37,NULL,NULL,NULL,37,37,NULL,NULL,'travel',37,NULL),
@@ -848,15 +848,16 @@ VALUES
 	(109,'Ride','T-shirt Dames','Odlo','ODLO_RIDE_7612c50005_3210_01_be.jpg','/odlo-t-shirt-ride-9112c52003','','69,95','','',NULL,NULL,NULL,NULL,319,NULL,NULL,NULL,NULL,NULL,NULL,NULL,319,'fietsen',322,NULL),
 	(110,'Aircontact Pro 60+15','Rugzak Heren','Deuter','DEUTER_ACT-PRO-60+15_1232C50010.jpg','/deuter-rugzak-aircontact-pro-60-15-1232c30014','259,95','179','','',NULL,NULL,NULL,NULL,322,NULL,NULL,NULL,NULL,322,322,NULL,NULL,'camping',325,NULL),
 	(111,'Aircontact Pro 55+15 SL','Rugzak Dames','Deuter','DEUTER_ACT-PRO-55+15SL_1231C50006.jpg','/deuter-rugzak-act-pro-55-15sl-dames-1231c30006','249,95','175','','',NULL,NULL,NULL,NULL,325,NULL,NULL,NULL,NULL,325,325,NULL,NULL,'camping',328,NULL),
-	(112,'Vespucci 4','Tent','Coleman','','/coleman-tent-vespucci-4-1142c52001','349,95','249','','Gratis Campingaz Party Grill twv &euro; 54,95',NULL,NULL,NULL,NULL,328,328,328,NULL,NULL,328,328,NULL,NULL,'camping',331,NULL),
-	(113,'Vespucci 6','Tent','Coleman','','/coleman-tent-vespucci-6-1152c52001','449,95','299','','Gratis Campingaz Party Grill twv &euro; 54,96',NULL,NULL,NULL,NULL,331,331,331,NULL,NULL,331,331,NULL,NULL,'camping',334,NULL),
+	(112,'Vespucci 4','Tent','Coleman','COLEMAN_VESP_4_PARTY_GRILL.jpg','/coleman-tent-vespucci-4-1142c52001','349,95','249','','Gratis Campingaz Party Grill twv &euro; 54,95',NULL,NULL,NULL,NULL,328,328,328,NULL,NULL,328,328,NULL,NULL,'camping',331,NULL),
+	(113,'Vespucci 6','Tent','Coleman','COLEMAN_VESP_6_PARTY_GRILL.jpg','/coleman-tent-vespucci-6-1152c52001','449,95','299','','Gratis Campingaz Party Grill twv &euro; 54,96',NULL,NULL,NULL,NULL,331,331,331,NULL,NULL,331,331,NULL,NULL,'camping',334,NULL),
 	(114,'Bandit','Actiecamera','TomTom','TOMTOM_BANDIT_.jpg','/tomtom-video-bandit-2e21c52003','','399','','',NULL,NULL,NULL,NULL,334,NULL,NULL,NULL,NULL,334,NULL,334,NULL,'camping',337,NULL),
 	(115,'Duffel','19644','Camel','CAMEL-ACTIVE_DUFFEL_2141c50010_5555_01_be.jpg','/camel-active-bags-reistas-19644-2211c52009','59,95','45','','',NULL,NULL,NULL,NULL,337,337,NULL,337,NULL,337,337,NULL,NULL,'camping',340,NULL),
 	(116,'Toilettas','19743','Camel','CAMEL-ACTIVE_TOILETTAS_2171c50007_5555_01_be.jpg','/camel-active-bags-toilettas-19743-2351c52007','24,95','19','','',NULL,NULL,NULL,NULL,340,340,NULL,340,NULL,340,340,NULL,NULL,'camping',343,NULL),
 	(117,'Picknickdeken','','Lalay','LALAY_PICNIC_1475C52004_3737.jpg','/lalay-diverse-picknick-deken-1475c52004','','19,95','','',NULL,NULL,NULL,NULL,343,343,343,NULL,NULL,343,343,NULL,NULL,'camping',346,NULL),
 	(118,'Smoozip +3¡C','Slaapzak','Jack Wolfskin','JACK-WOLFSKIN_SMOOZIP_1324c50006_4040_01_be.jpg','/jack-wolfskin-slaapzak-smoozip-3-1324c50006','99,95','69','','',NULL,NULL,NULL,NULL,346,346,NULL,NULL,NULL,346,346,NULL,NULL,'camping',349,NULL),
 	(119,'Groeneprijs','Koop een cadeaucheque t.w.v. €1 en geniet van de voordeelprijs','','groeneprijs.jpg','','24,95','15','','',NULL,NULL,NULL,NULL,NULL,60,60,60,NULL,NULL,NULL,60,NULL,'travel',54,1),
-	(120,'Groeneprijs','Koop een cadeaucheque t.w.v. €1 en geniet van de voordeelprijs','','groeneprijs.jpg','','24,95','15','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'trekking',266,1);
+	(120,'Groeneprijs','Koop een cadeaucheque t.w.v. €1 en geniet van de voordeelprijs','','groeneprijs.jpg','','24,95','15','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'trekking',266,1),
+	(121,'Hero 4 Black','Camera','GoPro','GOPRO_4.jpg','','','529','','Gratis bundle t.w.v. &euro;59,95',NULL,NULL,NULL,NULL,29,29,NULL,NULL,NULL,NULL,NULL,NULL,29,'camping',29,NULL);
 
 /*!40000 ALTER TABLE `Products_test` ENABLE KEYS */;
 UNLOCK TABLES;
