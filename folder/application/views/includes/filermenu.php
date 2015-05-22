@@ -28,4 +28,4 @@
 		<?php } ?>
 		</select>
 
-		<form action=""></form>
+		<form action="" class="mobile-nav"></form>
