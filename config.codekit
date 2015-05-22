@@ -3631,13 +3631,79 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/acties\/assortiment_zonnebescherming.jpg": {
+	"\/images\/acties\/2plus1_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61235,
+		"inputAbbreviatedPath": "\/images\/acties\/2plus1_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/2plus1_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_teenslippers_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86309,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_teenslippers_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86974,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_teenslippers_NL.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86561,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_NL.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_NL.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_zonnebescherming_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56325,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_zonnebescherming_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56195,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_zonnebescherming_NL.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 60270,
-		"inputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming.jpg",
-		"outputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming.jpg",
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_NL.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_NL.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3660,6 +3726,50 @@
 		"initialSize": 42677,
 		"inputAbbreviatedPath": "\/images\/acties\/niveajulbo.jpg",
 		"outputAbbreviatedPath": "\/images\/acties\/niveajulbo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/niveajulbo_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45270,
+		"inputAbbreviatedPath": "\/images\/acties\/niveajulbo_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/niveajulbo_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/niveajulbo_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48194,
+		"inputAbbreviatedPath": "\/images\/acties\/niveajulbo_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/niveajulbo_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/Reef_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64537,
+		"inputAbbreviatedPath": "\/images\/acties\/Reef_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/Reef_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/Reef_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67330,
+		"inputAbbreviatedPath": "\/images\/acties\/Reef_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/Reef_FR.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5244,6 +5354,17 @@
 		"initialSize": 3207,
 		"inputAbbreviatedPath": "\/images\/merken\/YAYA-LOGO-pewter140.jpg",
 		"outputAbbreviatedPath": "\/images\/merken\/YAYA-LOGO-pewter140.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/overlay\/Overlay_2plus1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14373,
+		"inputAbbreviatedPath": "\/images\/overlay\/Overlay_2plus1.jpg",
+		"outputAbbreviatedPath": "\/images\/overlay\/Overlay_2plus1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
