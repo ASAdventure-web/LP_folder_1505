@@ -22,6 +22,7 @@ class Products extends CI_Controller {
 		$data['gridcount'] = 0;
 		$data['photocount'] = 0;
 		$data['categorie'] = $data['products'][0]['categorie'];
+		$data['lang'] = $lang;
 
 		$this->load->view('folder', $data);
 	}
@@ -38,6 +39,8 @@ class Products extends CI_Controller {
 		$data['count'] = 0;
 		$data['gridcount'] = 0;
 		$data['photocount'] = 0;
+		$data['lang'] = $lang;
+
 
 		$this->load->view('filter', $data);
 	}
@@ -57,6 +60,7 @@ class Products extends CI_Controller {
 		$data['categorie'] = "adults";
 		$data['secondfilter'] = "junior";
 		$data['thirthfilter'] = "junior";
+		$data['lang'] = $lang;
 
 
 		$this->load->view('filter2', $data);
@@ -77,6 +81,7 @@ class Products extends CI_Controller {
 		$data['categorie'] = "uitrusting";
 		$data['secondfilter'] = "camping";
 		$data['thirthfilter'] = "camping";
+		$data['lang'] = $lang;
 
 		$this->load->view('filter2', $data);
 	}
@@ -96,6 +101,7 @@ class Products extends CI_Controller {
 		$data['categorie'] = "adults";
 		$data['secondfilter'] = "heren";
 		$data['thirthfilter'] = "dames";
+		$data['lang'] = $lang;
 
 
 		$this->load->view('filter2', $data);

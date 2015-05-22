@@ -4,16 +4,13 @@
 		<a href="<?php echo $product['link'] ?>" title="<?php echo $product['productomschrijving'] ?>">
 <?php	}  else {?>
 <!-- print product -->
-<div class="col-3 row-1 product-container <?php if(isset($product['exclusief'])) { print(' exclusive-nl'); } if (isset($product['uitverkocht'])) { print(' sold-out-nl'); } if (isset($product['groeneprijs'])) { print(' groeneprijs'); } if (isset($product['2plus1'])) { print(' tshirts'); }?>">
+<div class="col-3 row-1 product-container <?php if(isset($product['exclusief'])) { print(' exclusive-'.$lang.''); } if (isset($product['uitverkocht'])) { print(' sold-out-'.$lang.''); } if (isset($product['groeneprijs'])) { print(' groeneprijs-'.$lang.''); } if (isset($product['2plus1']) && $active != "2plus1") { print(' tshirts-'.$lang.''); }?>">
 	<a href="<?php echo $product['link'] ?>" alt="<?php echo $product['productnaam'] ?>" class="contentlink">
 		<img class="product-image" data-src="http://static.asadventure.com/includes/landingpage/2015_zomerfolder/images/producten/<?php echo $product['img'] ?>" title="<?php echo $product['productnaam'].' '.$product['productomschrijving'] ?>">
 		<div class="bottom-container">
 			<div class="price-tag">
 				<?php if(strlen($product['specialeactie'])>0) { ?>
 				<p class="special"><?php echo $product['specialeactie'] ?></p>
-				<?php } ?>
-				<?php if (isset($product['groeneprijs'])) { ?>
-				<p class="special groeneprijstext">Groene voordeelprijs</p>
 				<?php } ?>
 				<?php if(strlen($product['oudeprijs'])>0) { ?>
 
