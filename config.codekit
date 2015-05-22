@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "18902",
+"creatorBuild": "18966",
 "files": {
 	"\/bower_components\/lazyloadxt\/bower.json": {
 		"fileType": 524288,
@@ -571,15 +571,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/folder\/application\/third_party\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/folder\/application\/views\/150311previewfilter.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/folder\/application\/views\/150311previewfilter.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -3624,20 +3615,97 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 65674,
+		"initialSize": 53807,
 		"inputAbbreviatedPath": "\/images\/acties\/2plus1.jpg",
 		"outputAbbreviatedPath": "\/images\/acties\/2plus1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/images\/acties\/assortiment_zonnebescherming.jpg": {
+	"\/images\/acties\/2plus1_EN.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 60270,
-		"inputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming.jpg",
-		"outputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming.jpg",
+		"initialSize": 61235,
+		"inputAbbreviatedPath": "\/images\/acties\/2plus1_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/2plus1_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/2plus1_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50293,
+		"inputAbbreviatedPath": "\/images\/acties\/2plus1_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/2plus1_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_teenslippers_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86309,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_teenslippers_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86974,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_teenslippers_NL.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 86561,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_NL.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_teenslippers_NL.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_zonnebescherming_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56325,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_zonnebescherming_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56195,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/assortiment_zonnebescherming_NL.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56373,
+		"inputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_NL.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/assortiment_zonnebescherming_NL.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3646,9 +3714,31 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 38345,
+		"initialSize": 27163,
 		"inputAbbreviatedPath": "\/images\/acties\/groeneprijs.jpg",
 		"outputAbbreviatedPath": "\/images\/acties\/groeneprijs.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/groeneprijs_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22432,
+		"inputAbbreviatedPath": "\/images\/acties\/groeneprijs_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/groeneprijs_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/groeneprijs_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24839,
+		"inputAbbreviatedPath": "\/images\/acties\/groeneprijs_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/groeneprijs_FR.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3664,13 +3754,79 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/images\/acties\/niveajulbo_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45270,
+		"inputAbbreviatedPath": "\/images\/acties\/niveajulbo_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/niveajulbo_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/niveajulbo_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48194,
+		"inputAbbreviatedPath": "\/images\/acties\/niveajulbo_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/niveajulbo_FR.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/reef.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58011,
+		"inputAbbreviatedPath": "\/images\/acties\/reef.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/reef.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/Reef_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 64537,
+		"inputAbbreviatedPath": "\/images\/acties\/Reef_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/Reef_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/images\/acties\/teva.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 83650,
+		"initialSize": 77542,
 		"inputAbbreviatedPath": "\/images\/acties\/teva.jpg",
 		"outputAbbreviatedPath": "\/images\/acties\/teva.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/teva_EN.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 75046,
+		"inputAbbreviatedPath": "\/images\/acties\/teva_EN.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/teva_EN.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/acties\/teva_FR.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77926,
+		"inputAbbreviatedPath": "\/images\/acties\/teva_FR.jpg",
+		"outputAbbreviatedPath": "\/images\/acties\/teva_FR.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3759,6 +3915,17 @@
 		"initialSize": 1355,
 		"inputAbbreviatedPath": "\/images\/kleuren\/camo2.jpg",
 		"outputAbbreviatedPath": "\/images\/kleuren\/camo2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/kleuren\/duffel.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4726,
+		"inputAbbreviatedPath": "\/images\/kleuren\/duffel.jpg",
+		"outputAbbreviatedPath": "\/images\/kleuren\/duffel.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -5244,6 +5411,83 @@
 		"initialSize": 3207,
 		"inputAbbreviatedPath": "\/images\/merken\/YAYA-LOGO-pewter140.jpg",
 		"outputAbbreviatedPath": "\/images\/merken\/YAYA-LOGO-pewter140.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/overlay\/exclusief-en.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17172,
+		"inputAbbreviatedPath": "\/images\/overlay\/exclusief-en.png",
+		"outputAbbreviatedPath": "\/images\/overlay\/exclusief-en.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/overlay\/exclusief-fr.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17132,
+		"inputAbbreviatedPath": "\/images\/overlay\/exclusief-fr.png",
+		"outputAbbreviatedPath": "\/images\/overlay\/exclusief-fr.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/overlay\/exclusief-nl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17137,
+		"inputAbbreviatedPath": "\/images\/overlay\/exclusief-nl.png",
+		"outputAbbreviatedPath": "\/images\/overlay\/exclusief-nl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/overlay\/groen_en.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7736,
+		"inputAbbreviatedPath": "\/images\/overlay\/groen_en.jpg",
+		"outputAbbreviatedPath": "\/images\/overlay\/groen_en.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/overlay\/groen_fr.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8100,
+		"inputAbbreviatedPath": "\/images\/overlay\/groen_fr.jpg",
+		"outputAbbreviatedPath": "\/images\/overlay\/groen_fr.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/overlay\/groen_nl.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 7771,
+		"inputAbbreviatedPath": "\/images\/overlay\/groen_nl.jpg",
+		"outputAbbreviatedPath": "\/images\/overlay\/groen_nl.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/overlay\/Overlay_2plus1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13315,
+		"inputAbbreviatedPath": "\/images\/overlay\/Overlay_2plus1.jpg",
+		"outputAbbreviatedPath": "\/images\/overlay\/Overlay_2plus1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -7831,6 +8075,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/sftp-config.json": {
+		"fileType": 524288,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sftp-config.json",
+		"orderOutput": 0,
+		"outputAbbreviatedPath": "\/sftp-config-min.json",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1
+		},
 	"\/stylesheets\/css\/folder-juni.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -7955,7 +8210,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Bert van Depoele",
+"lastSavedByUser": "Maaike Ongena",
 "manualImportLinks": {
 	},
 "projectAttributes": {
