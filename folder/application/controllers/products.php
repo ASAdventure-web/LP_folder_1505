@@ -34,7 +34,7 @@ class Products extends CI_Controller {
 
 		$data['products'] = $this->products_model->get_products($lang, $page);
 		$data['photos'] = $this->photo_model->get_photos($page);
-		$data['links'] = $this->links_model->get_links();	
+		$data['links'] = $this->links_model->get_links($lang);	
 		$data['active'] = $page;
 		$data['count'] = 0;
 		$data['gridcount'] = 0;
@@ -52,7 +52,7 @@ class Products extends CI_Controller {
 
 		$data['products'] = $this->products_model->get_products($lang, $page, "junior");
 		$data['photos'] = $this->photo_model->get_photos($page);
-		$data['links'] = $this->links_model->get_links();	
+		$data['links'] = $this->links_model->get_links($lang);	
 		$data['active'] = $page;
 		$data['count'] = 0;
 		$data['gridcount'] = 0;
@@ -73,7 +73,7 @@ class Products extends CI_Controller {
 
 		$data['products'] = $this->products_model->get_products($lang, $page, "camping");
 		$data['photos'] = $this->photo_model->get_photos($page);
-		$data['links'] = $this->links_model->get_links();	
+		$data['links'] = $this->links_model->get_links($lang);	
 		$data['active'] = $page;
 		$data['count'] = 0;
 		$data['gridcount'] = 0;
@@ -93,7 +93,7 @@ class Products extends CI_Controller {
 
 		$data['products'] = $this->products_model->get_products($lang, $page, "2plus1dames");
 		$data['photos'] = $this->photo_model->get_photos($page);
-		$data['links'] = $this->links_model->get_links();	
+		$data['links'] = $this->links_model->get_links($lang);	
 		$data['active'] = $page;
 		$data['count'] = 0;
 		$data['gridcount'] = 0;
