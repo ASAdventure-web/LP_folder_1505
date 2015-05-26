@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.38)
 # Database: folder
-# Generation Time: 2015-05-26 13:02:01 +0000
+# Generation Time: 2015-05-26 15:26:30 +0000
 # ************************************************************
 
 
@@ -314,7 +314,7 @@ VALUES
 	(2,'Camo','Herenshort','Jack & Jones','J&J_CAMO_4365C52002_5507.jpg','/jack-jones-short-camo-4365c52002','','39,95','camo1.jpg camo2.jpg','Slechts',NULL,NULL,NULL,NULL,NULL,NULL,4,NULL,4,NULL,NULL,NULL,NULL,NULL,'camping',4,NULL),
 	(3,'Binno','Playsuit dames','Ichi','ICHI_BINNO-JUMPSUIT_4185C52005_4106.jpg','/ichi-jumpsuit-binno-4185c52005?id_colour=2346','59,95','39','binno1.jpg binno2.jpg','',1,NULL,1,NULL,NULL,7,NULL,NULL,7,NULL,NULL,NULL,NULL,NULL,'camping',7,NULL),
 	(4,'Berot','Damesshort','Only','ONLY_BEROT_4181C52025_1149.jpg','/only-short-berot-4181c52025','','16,95','berot1.jpg berot2.jpg berot3.jpg','2 voor &euro;25',1,NULL,NULL,NULL,NULL,10,NULL,NULL,10,NULL,NULL,NULL,NULL,NULL,'camping',10,NULL),
-	(5,'Selfiestick','Kit','Azuri','4T7A0113.jpg','','24,95','19','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,13,NULL,NULL,NULL,'camping',13,NULL),
+	(5,'Selfiestick','Kit','Azuri','4T7A0113.jpg','/azuri-video-accessoire-selfiestick-2e12c52001?id_colour=4168','24,95','19','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,13,NULL,NULL,NULL,'camping',13,NULL),
 	(6,'Universal 180&deg;','Fish Eye lens','Black Eye','BLACK-EYE_UNIVERSAL-FISH-EYE_2g52c50007_0101_01_be_Ver1.jpg','/black-eye-e-gadget-the-original-180-fisheye-lens-2h61c52007','','29,95','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,16,NULL,NULL,NULL,'camping',16,NULL),
 	(7,'Clipper','Wide angle lens','Black Eye','BLACK-EYE_CLIPPER-WIDE-ANGLE_2g52c50008_0101_02_be_Ver1-copy.jpg','/black-eye-e-gadget-clipper-wide-angle-2h61c52008','','44,95','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,19,NULL,NULL,NULL,'camping',19,NULL),
 	(8,'Darwin 3','en Maxi Comfort Luchtmatras','Coleman','COLEMAN_DARWIN_3PLUS_MATRAS.jpg','/index.cfm/fuseaction/products.search/?searchvalue=coleman+aanbod','159,9','99','','Setprijs',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,22,22,NULL,NULL,'camping',22,NULL),
@@ -323,9 +323,9 @@ VALUES
 	(11,'Moore','Shirt Heren','Eider','EIDER_MOORE_3315C52049_6161.jpg','','64,95','39','#BAB2AF moore.jpg','',NULL,NULL,1,NULL,NULL,NULL,56,NULL,NULL,56,NULL,NULL,NULL,NULL,'travel',56,NULL),
 	(12,'Refractor','Duffle Pack','The North Face','THE-NORTH-FACE_REFRACTOR-DUFFEL-PACK_2146c50001_7070_01_be-copy.jpg','/the-north-face-trolley-refractor-duffle-pack-2261c52001','164,95','99','#323036 duffel.jpg','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,34,NULL,NULL,NULL,'travel',34,NULL),
 	(13,'Flyweight pack','Dagrugzak 17l','The North Face','THE-NORTH-FACE_FLYWEIGHT-PACK_2111c10013_7071_53.jpg','/the-north-face-dagrugzak-flyweight-2111C10013','44,95','29','#302F33','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,37,NULL,NULL,NULL,'travel',37,NULL),
-	(14,'No matter what','Flatbed 20 Trolley','Eagle Creek','EAGLE-CREEK_FLATBED20_2261D42006_7070.jpg','/eagle-creek-trolley-no-matter-what-flatbed-20-2261d42006','135','85','#302E34 #B83249 #165FAF','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,NULL,'travel',40,NULL),
-	(15,'No matter what','Flatbed 28 Trolley','Eagle Creek','EAGLE-CREEK_FLATBED28_2231D42027_3232.jpg','/eagle-creek-trolley-no-matter-what-flatbed-28-2231d42027','165','105','#302E34 #B83249 #165FAF','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,NULL,NULL,NULL,'travel',43,NULL),
-	(16,'No matter what','Flatbed 32 Trolley','Eagle Creek','EAGLE-CREEK_FLATBED32_2231D42028_4242.jpg','/eagle-creek-trolley-no-matter-what-flatbed-32-2231d42028?id_colour=4168','185','115','#302E34 #B83249 #165FAF','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,3,NULL,NULL,NULL,'travel',46,NULL),
+	(14,'No matter what','Flatbed 20 Trolley','Eagle Creek','EAGLE-CREEK_FLATBED20_2261D42006_7070.jpg','/eagle-creek-trolley-no-matter-what-flatbed-20-2261d42006?id_colour=4168','135','85','#302E34 #B83249 #165FAF','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,NULL,'travel',40,NULL),
+	(15,'No matter what','Flatbed 28 Trolley','Eagle Creek','EAGLE-CREEK_FLATBED28_2231D42027_3232.jpg','/eagle-creek-trolley-no-matter-what-flatbed-28-2231d42027?id_colour=1594','165','105','#302E34 #B83249 #165FAF','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,NULL,NULL,NULL,'travel',43,NULL),
+	(16,'No matter what','Flatbed 32 Trolley','Eagle Creek','EAGLE-CREEK_FLATBED32_2231D42028_4242.jpg','/eagle-creek-trolley-no-matter-what-flatbed-32-2231d42028?id_colour=2374','185','115','#302E34 #B83249 #165FAF','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,3,NULL,NULL,NULL,'travel',46,NULL),
 	(17,'No matter what','Flatbed 20/28/32','Eagle Creek','EAGLE_CREEK_SET_TROLLEYS.jpg','/index.cfm/fuseaction/products.search/?searchvalue=No+matter+what','485','299','#302E34 #B83249 #165FAF','Setprijs',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,4,NULL,NULL,NULL,'travel',49,NULL),
 	(18,'Kodiak','Mini oplader','Outdoor Tech','OUTDOOR-TECH_KODIAK-OPLADER_2G32C52001_Vertical.jpg','/outdoor-tech-oplader-kodiak-mini-2g32c52001','24,95','15','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,52,52,NULL,NULL,'travel',52,NULL),
 	(19,'Totally Royal','Bag','Pieces','2125c50003_6565_01.jpg','/pieces-shopper-totally-royal-leather-travel-bag-2315c52003','134,95','85','','',NULL,NULL,1,NULL,NULL,53,NULL,NULL,53,NULL,NULL,NULL,NULL,NULL,'travel',53,NULL),
@@ -410,7 +410,7 @@ VALUES
 	(99,'2+1','Outdoor t-shirts: 2 kopen, 1 gratis','','2plus1.jpg','/content/nl/zomerfolder2015-2plus1','','','','',NULL,NULL,NULL,1,NULL,NULL,250,NULL,NULL,80,NULL,NULL,NULL,NULL,'trekking',292,1),
 	(100,'Ambit 2S Graphite','Hoogtemeter','Suunto','SUUNTO_AMBIT-25-GRAPHIT_2421c30008_7015_02.jpg','/suunto-hoogtemeter-ambit-2s-grapphite-2545c32008','399','249','','Inclusief hartslagmeter',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,292,NULL,NULL,NULL,'trekking',295,NULL),
 	(101,'Ugrip Chain 585-5','Kabelslot','Abus','ABUS_UGRIP-CHAIN_7272c50008_7070_01_be.jpg','/abus-slot-ugrip-chain-a381c52008','27,95','19','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,295,NULL,NULL,295,'fietsen',298,NULL),
-	(102,'Vybe D7','Vouwfiets','Dahon','DAHON_VYBE_7116c30001_1010_02_be.jpg','/dahon-vouwfiets-vybe-d7-a216c32001?id_colour=4168','499','349','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,298,NULL,NULL,298,'fietsen',301,NULL),
+	(102,'Vybe D7','Vouwfiets','Dahon','DAHON_VYBE_7116c30001_1010_02_be.jpg','/dahon-vouwfiets-vybe-d7-a216c32001?id_colour=4168','499','349','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,298,NULL,NULL,10,'fietsen',301,NULL),
 	(103,'Cluster 10+3','Rugzak','Vaude','VAUDE_CLUSTER_7511c20015_7070_51.jpg','/vaude-fietsrugzak-cluster-10-3l-a511c52002','59,95','39','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,301,NULL,NULL,301,'fietsen',304,NULL),
 	(104,'Activ TC','Helm','Casco','Casco_Activ-TC_Black_left_0802.jpg','/casco-fietshelm-activ-tc-a122c22004?id_colour=4168','','69,95','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,304,NULL,NULL,304,'fietsen',307,NULL),
 	(105,'Dinsdag comfort 7V','Stadsfiets','Batavus','BATAVUS_DINSDAG_7113c50060_7070_01_be.jpg','/batavus-citybike-dinsdag-comfort-7v-heren-a213c52060','','799','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,307,NULL,NULL,307,'fietsen',310,NULL),
@@ -438,12 +438,13 @@ VALUES
 	(130,'lookbook','','','lookbook5.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,242,305,NULL,NULL,NULL,'A',90,1),
 	(131,'lookbook','','','lookbook6.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,1,162,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
 	(132,'lookbook','','','lookbook7.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
-	(133,'lookbook','','','lookbook8.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,96,NULL,NULL,NULL,NULL,1,NULL,'A',90,1),
-	(134,'lookbook','','','lookbook9.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,8,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
-	(135,'lookbook','','','lookbook11.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,92,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
+	(133,'lookbook','','','lookbook8.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
+	(134,'lookbook','','','lookbook9.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,8,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
+	(135,'lookbook','','','lookbook11.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,93,NULL,NULL,NULL,NULL,1,NULL,'A',90,1),
 	(136,'lookbook','','','lookbook10.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,119,NULL,NULL,NULL,NULL,125,NULL,'A',90,1),
-	(137,'lookbook','','','lookbook12.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,22,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
-	(138,'lookbook','','','lookbook4.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,36,NULL,NULL,1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1);
+	(137,'lookbook','','','lookbook12.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,22,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
+	(138,'lookbook','','','lookbook4.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'trekking',295,1),
+	(165,'lookbook','','','lookbook5.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'trekking',285,1);
 
 /*!40000 ALTER TABLE `Products` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -590,19 +591,20 @@ VALUES
 	(120,'Green price','Buy a bag worth €1 and get the discount on the selected products','groeneprijs.jpg','/content/en/Extra-green-discount-prices',''),
 	(121,'Hero 4 Black','Video','GOPRO_4.jpg','/gopro-video-hero-4-black-2e21c52001?id_colour=4168','Free bundle worth &euro;59,95'),
 	(122,'Green price','Buy a bag worth €1 and get the discount on the selected products','groeneprijs.jpg','/content/en/Extra-green-discount-prices',''),
-	(123,'lookbook','','lookbook1.jpg','/lookbook/follow-the-sun',NULL),
-	(124,'lookbook','','lookbook2.jpg','/lookbook/follow-the-sun',NULL),
-	(125,'lookbook','','lookbook3.jpg','/lookbook/follow-the-sun',NULL),
-	(126,'lookbook','','lookbook4.jpg','/lookbook/follow-the-sun',NULL),
-	(127,'lookbook','','lookbook5.jpg','/lookbook/follow-the-sun',NULL),
-	(128,'lookbook','','lookbook6.jpg','/lookbook/follow-the-sun',NULL),
-	(129,'lookbook','','lookbook7.jpg','/lookbook/follow-the-sun',NULL),
-	(130,'lookbook','','lookbook8.jpg','/lookbook/follow-the-sun',NULL),
-	(131,'lookbook','','lookbook9.jpg','/lookbook/follow-the-sun',NULL),
-	(132,'lookbook','','lookbook11.jpg','/lookbook/follow-the-sun',NULL),
-	(133,'lookbook','','lookbook10.jpg','/lookbook/follow-the-sun',NULL),
-	(134,'lookbook','','lookbook12.jpg','/lookbook/follow-the-sun',NULL),
-	(135,'lookbook','','lookbook4.jpg','/lookbook/follow-the-sun',NULL);
+	(123,'lookbook',NULL,'lookbook1.jpg','/lookbook/follow-the-sun',NULL),
+	(124,'lookbook',NULL,'lookbook2.jpg','/lookbook/follow-the-sun',NULL),
+	(127,'lookbook',NULL,'lookbook3.jpg','/lookbook/follow-the-sun',NULL),
+	(129,'lookbook',NULL,'lookbook4.jpg','/lookbook/follow-the-sun',NULL),
+	(130,'lookbook',NULL,'lookbook5.jpg','/lookbook/follow-the-sun',NULL),
+	(131,'lookbook',NULL,'lookbook6.jpg','/lookbook/follow-the-sun',NULL),
+	(132,'lookbook',NULL,'lookbook7.jpg','/lookbook/follow-the-sun',NULL),
+	(133,'lookbook',NULL,'lookbook8.jpg','/lookbook/follow-the-sun',NULL),
+	(134,'lookbook',NULL,'lookbook9.jpg','/lookbook/follow-the-sun',NULL),
+	(135,'lookbook',NULL,'lookbook11.jpg','/lookbook/follow-the-sun',NULL),
+	(136,'lookbook',NULL,'lookbook10.jpg','/lookbook/follow-the-sun',NULL),
+	(137,'lookbook',NULL,'lookbook12.jpg','/lookbook/follow-the-sun',NULL),
+	(138,'lookbook',NULL,'lookbook4.jpg','/lookbook/follow-the-sun',NULL),
+	(165,'lookbook',NULL,'lookbook5.jpg','/lookbook/follow-the-sun',NULL);
 
 /*!40000 ALTER TABLE `Products_en` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -676,8 +678,8 @@ VALUES
 	(46,'Mahalo','Robe','4T7A0168.jpg','/lingadore-robe-mahalo-8154c52003','Seulement'),
 	(47,'Boltana','Robe','4T7A0164.jpg','/protest-robe-boltana-8154C52004',''),
 	(48,'Yolt','Short de bain Hommes','PROTEST_YOLT_8222C52003_4110.jpg','/protest-short-de-bain-yolt-8222c52003',''),
-	(49,'Assortiment teenslippers','-50% de r&eacute;duction sur la 2i&egrave;me paire','Reef_FR.jpg','/reef',''),
-	(50,'Assortiment zonnebescherming','-50% de r&eacute;duction sur la 2i&egrave;me produit','assortiment_zonnebescherming.jpg','/index.cfm/fuseaction/products.search/?searchvalue=nivea&flt_verzorging_onderhoud=zonnebescherming&filters=verzorging_onderhoud|LIST',''),
+	(49,'Assortiment teenslippers','-50% de r&eacute;duction sur la 2i&egrave;me paire','reef_FR.jpg','/reef',''),
+	(50,'Assortiment zonnebescherming','-50% de r&eacute;duction sur la 2i&egrave;me produit','assortiment_zonnebescherming_FR.jpg','/index.cfm/fuseaction/products.search/?searchvalue=nivea&flt_verzorging_onderhoud=zonnebescherming&filters=verzorging_onderhoud|LIST',''),
 	(51,'Skomer','T-shirt Femmes','VAUDE_SKOMER_3112C50002_5353.jpg','',''),
 	(52,'Masai Mara','T-shirt Femmes','AYACUCHO_MASAI-MARA_-3112C50044_3232.jpg','/ayacucho-t-shirt-masai-mara-dames-3112c40021',''),
 	(53,'Zambezi','T-shirt Femmes','AYACUCHO_ZAMBEZI_3114C50024_0450.jpg','/ayacucho-top-zambesi-dames-3114c40006',''),
@@ -749,19 +751,20 @@ VALUES
 	(120,'Avantage prix vert','Achetez un sac r&eacute;utilisable de &euro; 1 et profitez d\'une belle r&eacute;duction sur tous les','groeneprijs_FR.jpg','/content/fr/prix-avantageux-vert',''),
 	(121,'Hero 4 Black','Cam&eacute;ra d\'action','GOPRO_4.jpg','/gopro-video-hero-4-black-2e21c52001?id_colour=4168','Accessoire gratuit d\'une valeur de  &euro; 59,95'),
 	(122,'Avantage prix vert','Achetez un sac r&eacute;utilisable de &euro; 1 et profitez d\'une belle r&eacute;duction sur tous les','groeneprijs_FR.jpg','/content/fr/prix-avantageux-vert',NULL),
-	(123,'lookbook','','lookbook1.jpg','/lookbook/follow-the-sun',NULL),
-	(124,'lookbook','','lookbook2.jpg','/lookbook/follow-the-sun',NULL),
-	(125,'lookbook','','lookbook3.jpg','/lookbook/follow-the-sun',NULL),
-	(126,'lookbook','','lookbook4.jpg','/lookbook/follow-the-sun',NULL),
-	(127,'lookbook','','lookbook5.jpg','/lookbook/follow-the-sun',NULL),
-	(128,'lookbook','','lookbook6.jpg','/lookbook/follow-the-sun',NULL),
-	(129,'lookbook','','lookbook7.jpg','/lookbook/follow-the-sun',NULL),
-	(130,'lookbook','','lookbook8.jpg','/lookbook/follow-the-sun',NULL),
-	(131,'lookbook','','lookbook9.jpg','/lookbook/follow-the-sun',NULL),
-	(132,'lookbook','','lookbook11.jpg','/lookbook/follow-the-sun',NULL),
-	(133,'lookbook','','lookbook10.jpg','/lookbook/follow-the-sun',NULL),
-	(134,'lookbook','','lookbook12.jpg','/lookbook/follow-the-sun',NULL),
-	(135,'lookbook','','lookbook4.jpg','/lookbook/follow-the-sun',NULL);
+	(123,'lookbook',NULL,'lookbook1.jpg','/lookbook/follow-the-sun',NULL),
+	(124,'lookbook',NULL,'lookbook2.jpg','/lookbook/follow-the-sun',NULL),
+	(127,'lookbook',NULL,'lookbook3.jpg','/lookbook/follow-the-sun',NULL),
+	(129,'lookbook',NULL,'lookbook4.jpg','/lookbook/follow-the-sun',NULL),
+	(130,'lookbook',NULL,'lookbook5.jpg','/lookbook/follow-the-sun',NULL),
+	(131,'lookbook',NULL,'lookbook6.jpg','/lookbook/follow-the-sun',NULL),
+	(132,'lookbook',NULL,'lookbook7.jpg','/lookbook/follow-the-sun',NULL),
+	(133,'lookbook',NULL,'lookbook8.jpg','/lookbook/follow-the-sun',NULL),
+	(134,'lookbook',NULL,'lookbook9.jpg','/lookbook/follow-the-sun',NULL),
+	(135,'lookbook',NULL,'lookbook11.jpg','/lookbook/follow-the-sun',NULL),
+	(136,'lookbook',NULL,'lookbook10.jpg','/lookbook/follow-the-sun',NULL),
+	(137,'lookbook',NULL,'lookbook12.jpg','/lookbook/follow-the-sun',NULL),
+	(138,'lookbook',NULL,'lookbook4.jpg','/lookbook/follow-the-sun',NULL),
+	(165,'lookbook',NULL,'lookbook5.jpg','/lookbook/follow-the-sun',NULL);
 
 /*!40000 ALTER TABLE `Products_fr` ENABLE KEYS */;
 UNLOCK TABLES;
