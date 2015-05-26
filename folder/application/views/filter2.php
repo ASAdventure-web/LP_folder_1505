@@ -7,7 +7,7 @@
 	<?php include 'includes/links.php'; ?>
 </head>
 <body>
-	<div id="lp-folder-wrapper">
+	<div id="lp-folder-wrapper filter">
 		<!-- filermenu -->
 		<?php include 'includes/filermenu.php'; ?>
 		<!-- start eerste contentrow -->
