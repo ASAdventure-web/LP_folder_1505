@@ -495,6 +495,17 @@ img {
   text-align: center;
   text-rendering: optimizeLegibility;
   transform: rotate(-5deg); }
+.content-row .product-container.t-shirts:before,
+.content-block .product-container.t-shirts:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 4%;
+  top: 15px;
+  background: url("//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/2plus1.png");
+  background-size: cover; }
 .content-row .product-container.groeneprijs-nl:before, .content-row .product-container.groeneprijs-fr:before, .content-row .product-container.groeneprijs-en:before,
 .content-block .product-container.groeneprijs-nl:before,
 .content-block .product-container.groeneprijs-fr:before,
@@ -522,19 +533,6 @@ img {
 .content-row .product-container.groeneprijs-en:before,
 .content-block .product-container.groeneprijs-en:before {
   background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/groen_en.jpg);
-  background-size: cover; }
-.content-row .product-container.tshirts-nl:before, .content-row .product-container.tshirts-fr:before, .content-row .product-container.tshirts-en:before,
-.content-block .product-container.tshirts-nl:before,
-.content-block .product-container.tshirts-fr:before,
-.content-block .product-container.tshirts-en:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 4%;
-  top: 15px;
-  background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/Overlay_2plus1.png);
   background-size: cover; }
 .content-row .product-container.sold-out-nl::before, .content-row .product-container.sold-out-fr::before, .content-row .product-container.sold-out-en::before,
 .content-block .product-container.sold-out-nl::before,
