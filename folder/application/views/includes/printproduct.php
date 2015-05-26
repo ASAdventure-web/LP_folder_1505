@@ -24,9 +24,9 @@
 						if ($comma == ',') {
 						$price_smal = substr($price, -2);
 						$price_big = substr($price,0 ,-3); ?>
-						<p class='new-price'>&euro; <?php echo $price_big ?> <sub> <?php echo $price_smal ?> </sub></p>
+						<p class='new-price'><span class="currency">&euro;</span> <?php echo $price_big ?> <sub> <?php echo $price_smal ?> </sub></p>
 					<?php } else { 
-						?> <p class='new-price'>&euro; <?php echo $price?></p>
+						?> <p class='new-price'><span class="currency">&euro;</span> <?php echo $price?></p>
 					<?php } ?>
 					
 				<?php } ?>
