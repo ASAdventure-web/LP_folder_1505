@@ -15,7 +15,7 @@ class Products_model extends CI_Model {
 				return $query->result_array();
 			}
 			else {
-				$query = $this->db->query("SELECT `Products`.*, `Products_".$lang."`.`img`, `Products_".$lang."`.`link`, `Products_".$lang."`.`productnaam`, `Products_".$lang."`.`productomschrijving`, `Products_".$lang."`.`specialeactie`, `Merken`.* FROM (`Products`) LEFT JOIN `Products_".$lang."` ON `Products`.`id` = `Products_".$lang."`.`id` LEFT JOIN `Merken` ON `Products`.`merk` = `Merken`.`merknaam` WHERE `Products`.`categorie` <> '2plus1' ORDER BY FIELD(Products.categorie,'travel','trekking','camping','beach', 'fietsen'), volgorde ASC");
+				$query = $this->db->query("SELECT `Products`.*, `Products_".$lang."`.`img`, `Products_".$lang."`.`link`, `Products_".$lang."`.`productnaam`, `Products_".$lang."`.`productomschrijving`, `Products_".$lang."`.`specialeactie`, `Merken`.* FROM (`Products`) LEFT JOIN `Products_".$lang."` ON `Products`.`id` = `Products_".$lang."`.`id` LEFT JOIN `Merken` ON `Products`.`merk` = `Merken`.`merknaam` WHERE `Products`.`categorie` <> '2plus1' AND `Products`.`categorie` <> 'A' ORDER BY FIELD(Products.categorie,'travel','trekking','camping','beach', 'fietsen'), volgorde ASC");
 				return $query->result_array();
 			}
 		}
