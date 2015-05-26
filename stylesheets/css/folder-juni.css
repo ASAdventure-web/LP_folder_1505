@@ -211,14 +211,8 @@
       height: 521px; } }
 
 .main-menu {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   font-weight: bold;
   margin: 0;
   padding: 2em 0;
@@ -249,8 +243,7 @@
     font-weight: 400;
     height: 100%;
     text-decoration: none;
-    -webkit-transition: .1s color linear;
-            transition: .1s color linear; }
+    transition: .1s color linear; }
     .main-menu a:hover {
       color: #252525; }
   @media only screen and (max-width: 767px) {
@@ -309,8 +302,7 @@ form.mobile-nav {
     background: none;
     height: 100%;
     text-decoration: none;
-    -webkit-transition: background .1s linear;
-            transition: background .1s linear; }
+    transition: background .1s linear; }
     .content-row .product-container.lookbook a:hover, .content-block .product-container.lookbook a:hover {
       background: rgba(255, 255, 255, 0.2); }
       @media only screen and (max-width: 1199px) {
@@ -348,8 +340,7 @@ form.mobile-nav {
     padding: .7em 1em;
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
-    -webkit-transition: background .2s linear;
-            transition: background .2s linear; }
+    transition: background .2s linear; }
     .content-row .product-container.lookbook button:active, .content-row .product-container.lookbook button:hover, .content-block .product-container.lookbook button:active, .content-block .product-container.lookbook button:hover {
       outline: none; }
     .content-row .product-container.lookbook button:hover, .content-block .product-container.lookbook button:hover {
@@ -499,9 +490,7 @@ img {
   line-height: 1;
   text-align: center;
   text-rendering: optimizeLegibility;
-  -webkit-transform: rotate(-5deg);
-      -ms-transform: rotate(-5deg);
-          transform: rotate(-5deg); }
+  transform: rotate(-5deg); }
 .content-row .product-container.groeneprijs-nl:before, .content-row .product-container.groeneprijs-fr:before, .content-row .product-container.groeneprijs-en:before,
 .content-block .product-container.groeneprijs-nl:before,
 .content-block .product-container.groeneprijs-fr:before,
@@ -540,18 +529,8 @@ img {
   width: 40px;
   height: 40px;
   left: 4%;
-  top: 15px; }
-.content-row .product-container.tshirts-nl:before,
-.content-block .product-container.tshirts-nl:before {
-  background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/tshirts_nl.jpg);
-  background-size: cover; }
-.content-row .product-container.tshirts-fr:before,
-.content-block .product-container.tshirts-fr:before {
-  background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/tshirts_fr.jpg);
-  background-size: cover; }
-.content-row .product-container.tshirts-en:before,
-.content-block .product-container.tshirts-en:before {
-  background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/tshirts_en.jpg);
+  top: 15px;
+  background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/Overlay_2plus1.png);
   background-size: cover; }
 .content-row .product-container.sold-out-nl::before, .content-row .product-container.sold-out-fr::before, .content-row .product-container.sold-out-en::before,
 .content-block .product-container.sold-out-nl::before,

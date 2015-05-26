@@ -59,17 +59,11 @@
                 height: 40px;
                 left: 4%;
                 top: 15px;
+                background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/Overlay_2plus1.png); background-size: cover;
+
             }
         }
-        &.tshirts-nl:before {
-            background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/tshirts_nl.jpg); background-size: cover;
-        }
-        &.tshirts-fr:before {
-            background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/tshirts_fr.jpg); background-size: cover;
-        }
-         &.tshirts-en:before {
-            background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/tshirts_en.jpg); background-size: cover;
-        }        &.sold-out-nl::before,
+        &.sold-out-nl::before,
         &.sold-out-fr::before,
         &.sold-out-en::before {
             background: rgba(0, 0, 0, 0.7);
