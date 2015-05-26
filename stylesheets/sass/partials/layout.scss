@@ -156,6 +156,7 @@ form.mobile-nav{
 			background-repeat: no-repeat !important;
 			background-size: auto 100% !important;
 			background-position: center;
+			position: relative;
 
 			@include mobile{
 				background-size: auto 100% !important;
@@ -210,6 +211,8 @@ form.mobile-nav{
         text-align: center;
         text-shadow: 1px 1px 0 rgba(0,0,0,.6);
         transition: background .2s linear;
+        position: relative;
+        top: 80%;
         &:active, &:hover{
         	outline: none;
         }
