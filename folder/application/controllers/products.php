@@ -22,6 +22,7 @@ class Products extends CI_Controller {
 		$data['gridcount'] = 0;
 		$data['photocount'] = 0;
 		$data['categorie'] = $data['products'][0]['categorie'];
+		$data['lang'] = $lang;
 
 		$this->load->view('folder', $data);
 	}
@@ -38,6 +39,8 @@ class Products extends CI_Controller {
 		$data['count'] = 0;
 		$data['gridcount'] = 0;
 		$data['photocount'] = 0;
+		$data['lang'] = $lang;
+
 
 		$this->load->view('filter', $data);
 	}
@@ -56,6 +59,9 @@ class Products extends CI_Controller {
 		$data['photocount'] = 0;
 		$data['categorie'] = "adults";
 		$data['secondfilter'] = "junior";
+		$data['thirthfilter'] = "junior";
+		$data['lang'] = $lang;
+
 
 		$this->load->view('filter2', $data);
 	}
@@ -74,9 +80,33 @@ class Products extends CI_Controller {
 		$data['photocount'] = 0;
 		$data['categorie'] = "uitrusting";
 		$data['secondfilter'] = "camping";
+		$data['thirthfilter'] = "camping";
+		$data['lang'] = $lang;
 
 		$this->load->view('filter2', $data);
 	}
+
+		public function damesheren()
+	{
+		$lang = $this->uri->segment(1);
+		$page = $this->uri->segment(2);
+
+		$data['products'] = $this->products_model->get_products($lang, $page, "2plus1dames");
+		$data['photos'] = $this->photo_model->get_photos($page);
+		$data['links'] = $this->links_model->get_links();	
+		$data['active'] = $page;
+		$data['count'] = 0;
+		$data['gridcount'] = 0;
+		$data['photocount'] = 0;
+		$data['categorie'] = "adults";
+		$data['secondfilter'] = "heren";
+		$data['thirthfilter'] = "dames";
+		$data['lang'] = $lang;
+
+
+		$this->load->view('filter2', $data);
+	}
+
 
 
 }

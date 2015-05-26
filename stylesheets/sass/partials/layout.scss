@@ -50,6 +50,10 @@
 }
 
 //MAIN MENU
+.contentlink:hover{
+	color:#454545!important;
+}
+
 .main-menu{
 	display: flex;
 	justify-content: center;
@@ -114,7 +118,7 @@
 		display: block;
 	}
 }
-form{
+form.mobile-nav{
 	display: none;
 }
 
@@ -152,6 +156,7 @@ form{
 			background-repeat: no-repeat !important;
 			background-size: auto 100% !important;
 			background-position: center;
+			position: relative;
 
 			@include mobile{
 				background-size: auto 100% !important;
@@ -206,6 +211,8 @@ form{
         text-align: center;
         text-shadow: 1px 1px 0 rgba(0,0,0,.6);
         transition: background .2s linear;
+        position: relative;
+        top: 80%;
         &:active, &:hover{
         	outline: none;
         }
@@ -220,6 +227,7 @@ form{
 				}
 			}
 		}
+
 		&.sold-out-nl::before, &.sold-out-fr::before, &.sold-out-en::before{
 			position: absolute;
 				top: 0;
@@ -239,7 +247,6 @@ form{
 		&.sold-out-en::before{
 			content: "Sold Out";
 		}
-
 		&.exclusive-nl::after, &.exclusive-fr::after, &.exclusive-en::after{
 			height: 82px;
 			margin: 0;
@@ -258,10 +265,6 @@ form{
 			border-bottom: 1px solid #DDDDDD;
 			margin-left: -1px !important;
 			width: 50%;
-
-			.contentlink{
-				display: block;
-			}
 		}
 	}
 }

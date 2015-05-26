@@ -35,7 +35,8 @@
 							<div class="content-row z-shadow" id="<?php print($secondfilter);?>">
 					<!-- categorie herdefiniëren -->
 						<?php $categorie = $secondfilter; ?>
-						<img data-src="http://static.asadventure.com/includes/landingpage/2015_zomerfolder/images/tussentitels/<?php echo strtolower($categorie) ?>.jpg">
+						<?php $secondfilter = $thirthfilter; ?>
+						<img data-src="http://static.asadventure.com/includes/landingpage/2015_zomerfolder/images/tussentitels/<?php echo strtolower($categorie) ?>_<?php echo($lang) ?>.jpg">
 					</div>
 					<div class="content-row">
 				<!-- end if -->
