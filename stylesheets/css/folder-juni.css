@@ -210,6 +210,9 @@
     .content-row .row-2 {
       height: 521px; } }
 
+.contentlink:hover {
+  color: #454545 !important; }
+
 .main-menu {
   display: flex;
   justify-content: center;
@@ -383,9 +386,7 @@ form.mobile-nav {
     border-left: 1px solid #DDDDDD;
     border-bottom: 1px solid #DDDDDD;
     margin-left: -1px !important;
-    width: 50%; }
-    .content-row .product-container .contentlink, .content-block .product-container .contentlink {
-      display: block; } }
+    width: 50%; } }
 
 img {
   max-width: 100%; }

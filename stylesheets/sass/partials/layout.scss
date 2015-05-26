@@ -50,6 +50,10 @@
 }
 
 //MAIN MENU
+.contentlink:hover{
+	color:#454545!important;
+}
+
 .main-menu{
 	display: flex;
 	justify-content: center;
@@ -220,6 +224,7 @@ form.mobile-nav{
 				}
 			}
 		}
+
 		&.sold-out-nl::before, &.sold-out-fr::before, &.sold-out-en::before{
 			position: absolute;
 				top: 0;
@@ -239,7 +244,6 @@ form.mobile-nav{
 		&.sold-out-en::before{
 			content: "Sold Out";
 		}
-
 		&.exclusive-nl::after, &.exclusive-fr::after, &.exclusive-en::after{
 			height: 82px;
 			margin: 0;
@@ -258,10 +262,6 @@ form.mobile-nav{
 			border-bottom: 1px solid #DDDDDD;
 			margin-left: -1px !important;
 			width: 50%;
-
-			.contentlink{
-				display: block;
-			}
 		}
 	}
 }
