@@ -2,6 +2,21 @@
 <?php if(isset($product['actie'])) { ?>
 	<div class="col-3 row-1 product-container lookbook" data-bg="http://static.asadventure.com/includes/landingpage/2015_zomerfolder/images/acties/<?php echo $product['img'] ?>">
 		<a href="<?php echo $product['link'] ?>" title="<?php echo $product['productomschrijving'] ?>">
+		<?php if($product['productnaam'] == 'lookbook') { ?>
+			<button>
+			<?php switch ($lang) {
+				case 'nl':
+				  echo "Naar de lookbook";
+				  break;
+				case 'fr':
+				  echo "Vers le lookbook";
+				  break;
+				case 'en':
+				  echo "View the lookbook";
+				  break;
+			} ?>
+			</button>
+		<?php } ?>
 <?php	}  else {?>
 <!-- print product -->
 <div class="col-3 row-1 product-container <?php if(isset($product['exclusief'])) { print(' exclusive-'.$lang.''); } if (isset($product['uitverkocht'])) { print(' sold-out-'.$lang.''); } if (isset($product['groeneprijs'])) { print(' groeneprijs-'.$lang.''); } if (isset($product['2plus1']) && $active != "2plus1") { print(' tshirts-'.$lang.''); }?>">
@@ -24,9 +39,9 @@
 						if ($comma == ',') {
 						$price_smal = substr($price, -2);
 						$price_big = substr($price,0 ,-3); ?>
-						<p class='new-price'>&euro; <?php echo $price_big ?> <sub> <?php echo $price_smal ?> </sub></p>
+						<p class='new-price'><span class="currency">&euro;</span> <?php echo $price_big ?> <sub> <?php echo $price_smal ?> </sub></p>
 					<?php } else { 
-						?> <p class='new-price'>&euro; <?php echo $price?></p>
+						?> <p class='new-price'><span class="currency">&euro;</span> <?php echo $price?></p>
 					<?php } ?>
 					
 				<?php } ?>
