@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.38)
 # Database: folder
-# Generation Time: 2015-05-26 11:46:24 +0000
+# Generation Time: 2015-05-26 13:02:01 +0000
 # ************************************************************
 
 
@@ -326,7 +326,7 @@ VALUES
 	(14,'No matter what','Flatbed 20 Trolley','Eagle Creek','EAGLE-CREEK_FLATBED20_2261D42006_7070.jpg','/eagle-creek-trolley-no-matter-what-flatbed-20-2261d42006','135','85','#302E34 #B83249 #165FAF','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,1,NULL,NULL,NULL,'travel',40,NULL),
 	(15,'No matter what','Flatbed 28 Trolley','Eagle Creek','EAGLE-CREEK_FLATBED28_2231D42027_3232.jpg','/eagle-creek-trolley-no-matter-what-flatbed-28-2231d42027','165','105','#302E34 #B83249 #165FAF','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,2,NULL,NULL,NULL,'travel',43,NULL),
 	(16,'No matter what','Flatbed 32 Trolley','Eagle Creek','EAGLE-CREEK_FLATBED32_2231D42028_4242.jpg','/eagle-creek-trolley-no-matter-what-flatbed-32-2231d42028?id_colour=4168','185','115','#302E34 #B83249 #165FAF','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,3,NULL,NULL,NULL,'travel',46,NULL),
-	(17,'No matter what','Flatbed 20/28/32','Eagle Creek','EAGLE_CREEK_SET_TROLLEYS.jpg','/index.cfm/fuseaction/products.search/?searchvalue=No+matter+what','485','229','#302E34 #B83249 #165FAF','Setprijs',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,4,NULL,NULL,NULL,'travel',49,NULL),
+	(17,'No matter what','Flatbed 20/28/32','Eagle Creek','EAGLE_CREEK_SET_TROLLEYS.jpg','/index.cfm/fuseaction/products.search/?searchvalue=No+matter+what','485','299','#302E34 #B83249 #165FAF','Setprijs',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,4,NULL,NULL,NULL,'travel',49,NULL),
 	(18,'Kodiak','Mini oplader','Outdoor Tech','OUTDOOR-TECH_KODIAK-OPLADER_2G32C52001_Vertical.jpg','/outdoor-tech-oplader-kodiak-mini-2g32c52001','24,95','15','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,52,52,NULL,NULL,'travel',52,NULL),
 	(19,'Totally Royal','Bag','Pieces','2125c50003_6565_01.jpg','/pieces-shopper-totally-royal-leather-travel-bag-2315c52003','134,95','85','','',NULL,NULL,1,NULL,NULL,53,NULL,NULL,53,NULL,NULL,NULL,NULL,NULL,'travel',53,NULL),
 	(20,'Ginger fiji','Jurk','King Louie','KING-LOUIE_GINGER-DRESS_4163C52076_4904.jpg','','79,95','55','king1.jpg king2.jpg','',1,NULL,1,NULL,NULL,55,NULL,NULL,55,NULL,NULL,NULL,124,NULL,'travel',55,NULL),
@@ -662,7 +662,7 @@ VALUES
 	(32,'Flowers','Short de bain gar&ccedil;ons','4T7A0200.jpg','/rumbl-short-de-bain-flowers-8422c52033',''),
 	(33,'Palm tree','Short de bain gar&ccedil;ons','4T7A0198.jpg','/rumbl-short-de-bain-palm-tree-8422c52034',''),
 	(34,'Happy Hippie','Bikini filles','4T7A0204.jpg','/lingadore-bikini-happy-hippie-8331c52055',''),
-	(35,'Flamingo','T-shirt anti-UV filles','4T7A0187.jpg','/lingadore-bikini-happy-hippie-8331c52055',''),
+	(35,'Flamingo','T-shirt anti-UV filles','4T7A0187.jpg','/molo-kids-lycra-flamingo-8361c52001',''),
 	(36,'Shark','T-shirt anti-UV gar&ccedil;ons','4T7A0186.jpg','/molo-kids-lycra-shark-8441c52002',''),
 	(37,'Vigga','Combinaison filles','4T7A0189.jpg','/name-it-combinaison-vigga-5284c52010',''),
 	(38,'Set de plong&eacute;e','Junior','Speedo_snorkelset.jpg','/speedo-lifestyle-jouets-glide-junior-set-plongee-en-apnee-2i21c42001',''),
