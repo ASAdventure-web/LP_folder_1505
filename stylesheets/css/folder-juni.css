@@ -474,6 +474,13 @@ img {
       max-height: 100%;
       max-width: 40%; }
 
+.campaign_menu_bottom .container .campaign_image {
+  position: fixed;
+  z-index: 1000;
+  background-color: #fff;
+  height: 30px;
+  border-bottom: 1px solid #ddd; }
+
 .main-menu {
   background: #ffffff;
   color: #EA8C15; }
