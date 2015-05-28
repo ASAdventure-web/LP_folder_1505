@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var url = window.location.href;
 	if (url.match("#camping$")) {
 		var theOffset = $('#camping').offset();
-        $('html, body').animate({
+        $('body, html').animate({
             scrollTop: theOffset.top - 170
         });
 	}
