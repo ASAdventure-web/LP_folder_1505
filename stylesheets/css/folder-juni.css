@@ -214,14 +214,8 @@
   color: #454545 !important; }
 
 .main-menu {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   font-weight: bold;
   margin: 0;
   padding: 2em 0;
@@ -252,8 +246,7 @@
     font-weight: 400;
     height: 100%;
     text-decoration: none;
-    -webkit-transition: .1s color linear;
-            transition: .1s color linear; }
+    transition: .1s color linear; }
     .main-menu a:hover {
       color: #252525; }
   @media only screen and (max-width: 767px) {
@@ -313,8 +306,7 @@ form.mobile-nav {
     background: none;
     height: 100%;
     text-decoration: none;
-    -webkit-transition: background .1s linear;
-            transition: background .1s linear; }
+    transition: background .1s linear; }
     .content-row .product-container.lookbook a:hover, .content-block .product-container.lookbook a:hover {
       background: rgba(255, 255, 255, 0.2); }
       @media only screen and (max-width: 1199px) {
@@ -352,8 +344,7 @@ form.mobile-nav {
     padding: .7em 1em;
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
-    -webkit-transition: background .2s linear;
-            transition: background .2s linear;
+    transition: background .2s linear;
     position: relative;
     top: 80%; }
     .content-row .product-container.lookbook button:active, .content-row .product-container.lookbook button:hover, .content-block .product-container.lookbook button:active, .content-block .product-container.lookbook button:hover {
@@ -421,7 +412,7 @@ img {
       width: 100%; } }
 
 .video-wrapper {
-  padding-bottom: 37.7%;
+  padding-bottom: 41.7%;
   position: relative;
   width: 100%; }
   .video-wrapper iframe {
@@ -483,6 +474,13 @@ img {
       max-height: 100%;
       max-width: 40%; }
 
+.campaign_menu_bottom .container .campaign_image {
+  position: fixed;
+  z-index: 1000;
+  background-color: #fff;
+  height: 30px;
+  border-bottom: 1px solid #ddd; }
+
 .main-menu {
   background: #ffffff;
   color: #EA8C15; }
@@ -503,9 +501,18 @@ img {
   line-height: 1;
   text-align: center;
   text-rendering: optimizeLegibility;
-  -webkit-transform: rotate(-5deg);
-      -ms-transform: rotate(-5deg);
-          transform: rotate(-5deg); }
+  transform: rotate(-5deg); }
+.content-row .product-container.t-shirts:before,
+.content-block .product-container.t-shirts:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 85px;
+  height: 85px;
+  left: 4%;
+  top: 15px;
+  background: url("//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/2plus1.png");
+  background-size: cover; }
 .content-row .product-container.groeneprijs-nl:before, .content-row .product-container.groeneprijs-fr:before, .content-row .product-container.groeneprijs-en:before,
 .content-block .product-container.groeneprijs-nl:before,
 .content-block .product-container.groeneprijs-fr:before,
@@ -533,19 +540,6 @@ img {
 .content-row .product-container.groeneprijs-en:before,
 .content-block .product-container.groeneprijs-en:before {
   background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/groen_en.jpg);
-  background-size: cover; }
-.content-row .product-container.tshirts-nl:before, .content-row .product-container.tshirts-fr:before, .content-row .product-container.tshirts-en:before,
-.content-block .product-container.tshirts-nl:before,
-.content-block .product-container.tshirts-fr:before,
-.content-block .product-container.tshirts-en:before {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  left: 4%;
-  top: 15px;
-  background: url(//static.asadventure.com/includes/landingpage/2015_zomerfolder/images/overlay/Overlay_2plus1.png);
   background-size: cover; }
 .content-row .product-container.sold-out-nl::before, .content-row .product-container.sold-out-fr::before, .content-row .product-container.sold-out-en::before,
 .content-block .product-container.sold-out-nl::before,
