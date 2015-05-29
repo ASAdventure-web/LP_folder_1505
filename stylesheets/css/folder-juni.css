@@ -214,8 +214,14 @@
   color: #454545 !important; }
 
 .main-menu {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-weight: bold;
   margin: 0;
   padding: 2em 0;
@@ -246,7 +252,8 @@
     font-weight: 400;
     height: 100%;
     text-decoration: none;
-    transition: .1s color linear; }
+    -webkit-transition: .1s color linear;
+            transition: .1s color linear; }
     .main-menu a:hover {
       color: #252525; }
   @media only screen and (max-width: 767px) {
@@ -306,7 +313,8 @@ form.mobile-nav {
     background: none;
     height: 100%;
     text-decoration: none;
-    transition: background .1s linear; }
+    -webkit-transition: background .1s linear;
+            transition: background .1s linear; }
     .content-row .product-container.lookbook a:hover, .content-block .product-container.lookbook a:hover {
       background: rgba(255, 255, 255, 0.2); }
       @media only screen and (max-width: 1199px) {
@@ -344,7 +352,8 @@ form.mobile-nav {
     padding: .7em 1em;
     text-align: center;
     text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.6);
-    transition: background .2s linear;
+    -webkit-transition: background .2s linear;
+            transition: background .2s linear;
     position: relative;
     top: 80%; }
     .content-row .product-container.lookbook button:active, .content-row .product-container.lookbook button:hover, .content-block .product-container.lookbook button:active, .content-block .product-container.lookbook button:hover {
@@ -475,7 +484,11 @@ img {
       max-width: 40%; }
 
 .campaign_menu_bottom .container .campaign_image {
-  background: #fff; }
+  position: fixed;
+  z-index: 1000;
+  background-color: #fff;
+  height: 30px;
+  border-bottom: 1px solid #ddd; }
 
 .main-menu {
   background: #ffffff;
@@ -497,7 +510,9 @@ img {
   line-height: 1;
   text-align: center;
   text-rendering: optimizeLegibility;
-  transform: rotate(-5deg); }
+  -webkit-transform: rotate(-5deg);
+      -ms-transform: rotate(-5deg);
+          transform: rotate(-5deg); }
 .content-row .product-container.t-shirts:before,
 .content-block .product-container.t-shirts:before {
   content: "";
