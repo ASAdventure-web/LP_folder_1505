@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.38)
 # Database: folder
-# Generation Time: 2015-05-28 09:20:41 +0000
+# Generation Time: 2015-06-01 15:04:35 +0000
 # ************************************************************
 
 
@@ -686,8 +686,8 @@ VALUES
 	(54,'Elena','T-shirt Femmes','AYACUCHO_ELENA_-3112C32001_4030.jpg','/ayacucho-t-shirt-elena-3112c32001',''),
 	(55,'Simona','T-shirt Femmes','AYACUCHO_SIMONA_-3114C30012_3535.jpg','/ayacucho-top-simona-3114c30012',''),
 	(56,'Betty Polo','Polo Femmes','AYACUCHO_BETTY-POLO_3119C42002_7272.jpg','/ayacucho-polo-betty-3119c42002',''),
-	(57,'City','T-shirt Hommes','SPRAYWAY_CITY_3312C50053_2020.jpg','/sprayway-t-shirt-city-3312c5005',''),
-	(58,'Ridge','T-shirt Hommes','SPRAYWAY_RIDGE_3312C40002_4040.jpg','/sprayway-t-shirt-ridge-3313c50001',''),
+	(57,'City','T-shirt Hommes','SPRAYWAY_CITY_3312C50053_2020.jpg','/sprayway-t-shirt-city-3312c50053?id_colour=736',''),
+	(58,'Ridge','T-shirt Hommes','SPRAYWAY_RIDGE_3312C40002_4040.jpg','/sprayway-t-shirt-ridge-3312c52003?id_colour=2218',''),
 	(59,'Zero Rules','T-shirt Hommes','COLUMBIA_ZERO-RULES_3312C40087_7272.jpg','/columbia-t-shirt-zero-rules-3312c40087',''),
 	(60,'Mountain Tech III','T-shirt Hommes','COLUMBIA_MOUNTAIN-TECH_3312C30044_4444.jpg','/columbia-t-shirt-mountain-tech-iii-3312c30044',''),
 	(61,'Dome','T-shirt Hommes','THE-NORTH-FACE_DOME-BIKER_3312C40005_4040.jpg','/the-north-face-t-shirt-dome-biker-3312C40005',''),
@@ -727,7 +727,7 @@ VALUES
 	(96,'Tek Towel','Wash Kit','SEA-TO-SUMMIT_TECH-TOWEL-WASH_261zc50001_5252_01_be.jpg','/sea-to-summit-divers-tek-towel-wash-kit-large-2a1bc52001',''),
 	(97,'Compact 8x25','Jumelles','KITE-OPTICS_COMPACT-8X25_2713d30044_0070_01.jpg','/kite-optics-jumelles-compact-8x25-2b13d32044',''),
 	(98,'Poco Plus','Porte-b&eacute;b&eacute;','OSPREY_POCO-PLUS_1251c20002_7272_01.jpg','/osprey-porte-bebe-poco-plus-1261c22002','Seulement'),
-	(99,'2+1','Action t-shirt 2+1 gratuit','2plus1_FR.jpg','/content/fr/zomerfolder2015-2plus1',''),
+	(99,'2+1','Action t-shirt 2+1 gratuit','2plus1_FR.jpg','/content/fr/depliantdete2015-2plus1 ',''),
 	(100,'Ambit 2S Graphite','Altim&egrave;tre','SUUNTO_AMBIT-25-GRAPHIT_2421c30008_7015_02.jpg','/suunto-altimetre-ambit-2s-grapphite-2545c32008','Cardiofr&eacute;quencem&egrave;tre inclus'),
 	(101,'Ugrip Chain 585-5','Antivol ugrip chain','ABUS_UGRIP-CHAIN_7272c50008_7070_01_be.jpg','/abus-anti-vol-ugrip-chain-a381c52008',''),
 	(102,'Vybe D7','V&eacute;lo pliant','DAHON_VYBE_7116c30001_1010_02_be.jpg','/dahon-velo-pliant-vybe-d7-a216c32001?id_colour=4168',''),
