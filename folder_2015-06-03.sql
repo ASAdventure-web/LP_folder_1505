@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.42)
 # Database: folder
-# Generation Time: 2015-06-03 07:31:29 +0000
+# Generation Time: 2015-06-03 13:20:05 +0000
 # ************************************************************
 
 
@@ -411,7 +411,7 @@ VALUES
 	(100,'Ambit 2S Graphite','Hoogtemeter','Suunto','SUUNTO_AMBIT-25-GRAPHIT_2421c30008_7015_02.jpg','/suunto-hoogtemeter-ambit-2s-grapphite-2545c32008','399','249','','Inclusief hartslagmeter',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,292,NULL,NULL,NULL,'trekking',295,NULL),
 	(101,'Ugrip Chain 585-5','Kabelslot','Abus','ABUS_UGRIP-CHAIN_7272c50008_7070_01_be.jpg','/abus-slot-ugrip-chain-a381c52008','27,95','19','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,295,NULL,NULL,295,'fietsen',298,NULL),
 	(102,'Vybe D7','Vouwfiets','Dahon','DAHON_VYBE_7116c30001_1010_02_be.jpg','/dahon-vouwfiets-vybe-d7-a216c32001?id_colour=4168','499','349','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,298,NULL,NULL,10,'fietsen',301,NULL),
-	(103,'Cluster 10+3','Rugzak','Vaude','VAUDE_CLUSTER_7511c20015_7070_51.jpg','/vaude-fietsrugzak-cluster-10-3l-a511c52002','59,95','39','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,301,NULL,NULL,301,'fietsen',304,NULL),
+	(103,'Cluster 10+3','Rugzak','Vaude','VAUDE_CLUSTER_7511c20015_7070_51.jpg','/vaude-fietsrugzak-cluster-10-3l-a511c22016?id_colour=4168','59,95','39','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,301,NULL,NULL,301,'fietsen',304,NULL),
 	(104,'Activ TC','Helm','Casco','Casco_Activ-TC_Black_left_0802.jpg','/casco-fietshelm-activ-tc-a122c22004?id_colour=4168','','69,95','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,304,NULL,NULL,304,'fietsen',307,NULL),
 	(105,'Dinsdag comfort 7V','Stadsfiets','Batavus','BATAVUS_DINSDAG_7113c50060_7070_01_be.jpg','/batavus-citybike-dinsdag-comfort-7v-heren-a213c52060','','799','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,307,NULL,NULL,307,'fietsen',310,NULL),
 	(106,'Ichi','Fietstas','Clarijs','CLARIJS_FIETSTAS_A513C52013_5203_01.jpg','/clarijs-covers-fietstas-achter-ichi-krikke-a513c52013','','69,95','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,310,NULL,NULL,310,'fietsen',313,NULL),
@@ -571,7 +571,7 @@ VALUES
 	(100,'Ambit 2S Graphite','Altimeter','SUUNTO_AMBIT-25-GRAPHIT_2421c30008_7015_02.jpg','/suunto-altimeter-ambit-2s-grapphite-2545c32008','Heart rate monitor included'),
 	(101,'Ugrip Chain 585-5','Lock','ABUS_UGRIP-CHAIN_7272c50008_7070_01_be.jpg','/abus-lock-ugrip-chain-a381c52008',''),
 	(102,'Vybe D7','Folding Bike','DAHON_VYBE_7116c30001_1010_02_be.jpg','/dahon-folding-bike-vybe-d7-a216c32001?id_colour=4168',''),
-	(103,'Cluster 10+3','Backpack','VAUDE_CLUSTER_7511c20015_7070_51.jpg','/vaude-bicycle-backpack-cluster-10-3l-a511c52002?id_colour=4168',''),
+	(103,'Cluster 10+3','Backpack','VAUDE_CLUSTER_7511c20015_7070_51.jpg','/vaude-bicycle-bag-cluster-10-3l-a511c22016?id_colour=4168',''),
 	(104,'Activ TC','Helmet','Casco_Activ-TC_Black_left_0802.jpg','/casco-bicycle-helmet-activ-tc-a122c22004',''),
 	(105,'Dinsdag comfort 7V','City bike','BATAVUS_DINSDAG_7113c50060_7070_01_be.jpg','/batavus-citybike-dinsdag-comfort-7v-men-a213c52060',''),
 	(106,'Ichi','Bike Bag','CLARIJS_FIETSTAS_A513C52013_5203_01.jpg','/clarijs-covers-bike-bag-back-cc-ichi-krikke-a513c52013?id_colour=3190',''),
@@ -731,7 +731,7 @@ VALUES
 	(100,'Ambit 2S Graphite','Altim&egrave;tre','SUUNTO_AMBIT-25-GRAPHIT_2421c30008_7015_02.jpg','/suunto-altimetre-ambit-2s-grapphite-2545c32008','Cardiofr&eacute;quencem&egrave;tre inclus'),
 	(101,'Ugrip Chain 585-5','Antivol ugrip chain','ABUS_UGRIP-CHAIN_7272c50008_7070_01_be.jpg','/abus-anti-vol-ugrip-chain-a381c52008',''),
 	(102,'Vybe D7','V&eacute;lo pliant','DAHON_VYBE_7116c30001_1010_02_be.jpg','/dahon-velo-pliant-vybe-d7-a216c32001?id_colour=4168',''),
-	(103,'Cluster 10+3','Sac &agrave; dos','VAUDE_CLUSTER_7511c20015_7070_51.jpg','/vaude-sac-a-dos-velo-cluster-10-3l-a511c52002',''),
+	(103,'Cluster 10+3','Sac &agrave; dos','VAUDE_CLUSTER_7511c20015_7070_51.jpg','/vaude-sac-a-dos-velo-cluster-10-3l-a511c22016?id_colour=4168',''),
 	(104,'Activ TC','Casque','Casco_Activ-TC_Black_left_0802.jpg','/casco-casque-velo-activ-tc-a122c22004?id_colour=4168',''),
 	(105,'Dinsdag comfort 7V','V&eacute;lo de ville','BATAVUS_DINSDAG_7113c50060_7070_01_be.jpg','/batavus-velo-de-ville-dinsdag-comfort-7v-hommes-a213c52060',''),
 	(106,'Ichi','Sacoche v&eacute;lo arri&egrave;re','CLARIJS_FIETSTAS_A513C52013_5203_01.jpg','/clarijs-covers-sacoche-velo-arriere-ichi-krikke-a513c52013',''),
