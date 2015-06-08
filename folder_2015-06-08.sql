@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.42)
 # Database: folder
-# Generation Time: 2015-06-08 07:28:17 +0000
+# Generation Time: 2015-06-08 08:07:27 +0000
 # ************************************************************
 
 
@@ -419,7 +419,7 @@ VALUES
 	(108,'Transport U4 Jeans','Citybike','Cortina','CORTINA_TRANSPORT-U4_7119c50050_4545_01_be.jpg','/cortina-citybike-transport-u4-jeans-dames-a223c52049','','599','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,316,NULL,NULL,316,'fietsen',319,NULL),
 	(109,'Ride','T-shirt Dames','Odlo','ODLO_RIDE_7612c50005_3210_01_be.jpg','/odlo-t-shirt-ride-9112c52003','','69,95','','',NULL,NULL,NULL,NULL,NULL,319,NULL,NULL,NULL,NULL,NULL,NULL,NULL,319,'fietsen',322,NULL),
 	(110,'Aircontact Pro 60+15','Rugzak Heren','Deuter','Aircontact_Pro.jpg','/deuter-rugzak-aircontact-pro-60-15-1232C50010','259,95','179','','Inclusief regenhoes',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,322,NULL,NULL,NULL,'camping',325,NULL),
-	(111,'Aircontact Pro 55+15 SL','Rugzak Dames','Deuter','Aircontact_Pro_55.jpg','deuter-rugzak-aircontact-pro-55-15-sl-1231C50006','249,95','175','','Inclusief regenhoes',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,325,NULL,NULL,NULL,'camping',328,NULL),
+	(111,'Aircontact Pro 55+15 SL','Rugzak Dames','Deuter','Aircontact_Pro_55.jpg','/deuter-rugzak-aircontact-pro-55-15-sl-1231C50006','249,95','175','','Inclusief regenhoes',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,325,NULL,NULL,NULL,'camping',328,NULL),
 	(112,'Vespucci 4','Tent','Coleman','COLEMAN_VESP_4_PARTY_GRILL.jpg','/coleman-tent-vespucci-4-1142c52001','349,95','249','','Gratis Campingaz Party Grill twv &euro; 54,95',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,328,17,NULL,NULL,'camping',331,NULL),
 	(113,'Vespucci 6','Tent','Coleman','COLEMAN_VESP_6_PARTY_GRILL.jpg','/coleman-tent-vespucci-6-1152c52001','449,95','299','','Gratis Campingaz Party Grill twv &euro; 54,96',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,331,18,NULL,NULL,'camping',334,NULL),
 	(114,'Bandit','Actiecamera','TomTom','TOMTOM_BANDIT_.jpg','/tomtom-video-bandit-2e21c52003','','429','','',1,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,5,NULL,NULL,11,'camping',12,NULL),
@@ -578,8 +578,8 @@ VALUES
 	(107,'Vintage','Bicycle Bell','LIIX_VINTAGE-FIETSBAL_721ac50008_2424_01_be_Ver1.jpg','/liix-bicycle-bell-vintage-a391c52008','Only'),
 	(108,'Transport U4 Jeans','Citybike','CORTINA_TRANSPORT-U4_7119c50050_4545_01_be.jpg','/cortina-citybike-transport-u4-jeans-a223c52049',''),
 	(109,'Ride','T-shirt Women','ODLO_RIDE_7612c50005_3210_01_be.jpg','/odlo-t-shirt-ride-9112c52003',''),
-	(110,'Aircontact Pro 60+15','Backpack Men','Aircontact_Pro.jpg','/deuter-backpack-act-pro-60-15-1232c30014','Raincover included'),
-	(111,'Aircontact Pro 55+15 SL','Backpack Women','Aircontact_Pro_55.jpg','/deuter-backpack-act-pro-55-15-sl-1231c30006','Raincover included'),
+	(110,'Aircontact Pro 60+15','Backpack Men','Aircontact_Pro.jpg','/deuter-backpack-aircontact-pro-60-15-1232C50010','Raincover included'),
+	(111,'Aircontact Pro 55+15 SL','Backpack Women','Aircontact_Pro_55.jpg','/deuter-backpack-aircontact-pro-55-15-sl-1231C50006','Raincover included'),
 	(112,'Vespucci 4','Tent','COLEMAN_VESP_4_PARTY_GRILL_EN.jpg','/coleman-tent-vespucci-4-1142c52001','Free Campingaz Party Grill worth &euro; 54,95'),
 	(113,'Vespucci 6','Tent','COLEMAN_VESP_6_PARTY_GRILL_EN.jpg','/coleman-tent-vespucci-6-1152c52001','Free Campingaz Party Grill worth &euro; 54,96'),
 	(114,'Bandit','Video','TOMTOM_BANDIT_.jpg','/tomtom-video-bandit-2e21c52003',''),
@@ -738,8 +738,8 @@ VALUES
 	(107,'Vintage','Sonette de v&eacute;lo','LIIX_VINTAGE-FIETSBAL_721ac50008_2424_01_be_Ver1.jpg','/liix-sonnette-de-velo-vintage-a391c52008','Seulement'),
 	(108,'Transport U4 Jeans','V&eacute;lo de ville','CORTINA_TRANSPORT-U4_7119c50050_4545_01_be.jpg','/cortina-velo-de-ville-transport-u4-jeans-femmes-a223c52049',''),
 	(109,'Ride','T-shirt Femmes','ODLO_RIDE_7612c50005_3210_01_be.jpg','/odlo-t-shirt-ride-9112c52003',''),
-	(110,'Aircontact Pro 60+15','Sac &agrave; dos Hommes','Aircontact_Pro.jpg','/deuter-sac-a-dos-aircontact-pro-60-15-1232c30014','Housse de pluie inclus'),
-	(111,'Aircontact Pro 55+15 SL','Sac &agrave; dos Femmes','Aircontact_Pro_55.jpg','/deuter-sac-a-dos-act-pro-55-15-sl-1231c30006','Housse de pluie inclus'),
+	(110,'Aircontact Pro 60+15','Sac &agrave; dos Hommes','Aircontact_Pro.jpg','/deuter-sac-a-dos-aircontact-pro-60-15-1232C50010','Housse de pluie inclus'),
+	(111,'Aircontact Pro 55+15 SL','Sac &agrave; dos Femmes','Aircontact_Pro_55.jpg','/deuter-sac-a-dos-aircontact-pro-55-15-sl-1231C50006','Housse de pluie inclus'),
 	(112,'Vespucci 4','Tente','COLEMAN_VESP_4_PARTY_GRILL_FR.jpg','/coleman-tente-vespucci-4-1142c52001','Campingaz Party Grill gratuit'),
 	(113,'Vespucci 6','Tente','COLEMAN_VESP_6_PARTY_GRILL_FR.jpg','/coleman-tente-vespucci-6-1152c52001','Campingaz Party Grill gratuit '),
 	(114,'Bandit','Cam&eacute;ra d\'action','TOMTOM_BANDIT_.jpg','/tomtom-video-bandit-2e21c52003',''),
