@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.42)
 # Database: folder
-# Generation Time: 2015-06-08 08:07:27 +0000
+# Generation Time: 2015-06-15 09:45:05 +0000
 # ************************************************************
 
 
@@ -360,7 +360,7 @@ VALUES
 	(48,'Yolt','Zwemshort Heren','Protest','PROTEST_YOLT_8222C52003_4110.jpg','/protest-zwemshort-yolt-8222c52003?id_colour=2270','49,95','35','','',NULL,NULL,1,NULL,NULL,NULL,139,NULL,NULL,NULL,NULL,NULL,139,NULL,'beach',139,NULL),
 	(49,'Assortiment teenslippers','50% op je tweede paar','','reef.jpg','/index.cfm/fuseaction/products.search/?searchvalue=reef','','','','',NULL,NULL,NULL,NULL,NULL,142,167,NULL,130,NULL,NULL,NULL,129,NULL,'beach',142,1),
 	(50,'Assortiment zonnebescherming','50% op je tweede product','','assortiment_zonnebescherming.jpg','/index.cfm/fuseaction/products.search/?searchvalue=nivea&flt_verzorging_onderhoud=zonnebescherming&filters=verzorging_onderhoud|LIST','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,250,NULL,NULL,131,NULL,'beach',134,1),
-	(51,'Skomer','T-shirt Dames','Vaude','VAUDE_SKOMER_3112C50002_5353.jpg','/vaude-t-shirt-dames-skomer-3112c50002?id_colour=1984','','36,95','','',NULL,NULL,NULL,1,148,148,NULL,NULL,NULL,148,NULL,NULL,NULL,NULL,'2plus1',148,NULL),
+	(51,'Skomer','T-shirt Dames','Vaude','VAUDE_SKOMER_3112C50002_5353.jpg','/vaude-t-shirt-dames-skomer-3112c50002?id_colour=3232','','39,95','','',NULL,NULL,NULL,1,148,148,NULL,NULL,NULL,148,NULL,NULL,NULL,NULL,'2plus1',148,NULL),
 	(52,'Masai Mara','T-shirt Dames','Ayacucho','AYACUCHO_MASAI-MARA_-3112C50044_3232.jpg','/ayacucho-t-shirt-masai-mara-dames-3112c40021','','34,95','','',NULL,NULL,NULL,1,151,151,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2plus1',151,NULL),
 	(53,'Zambezi','T-shirt Dames','Ayacucho','AYACUCHO_ZAMBEZI_3114C50024_0450.jpg','/index.cfm/fuseaction/products.search/?searchvalue=zambezi+top','','29,95','#1CB3A0 zamb1.jpg zamb2.jpg zamb3.jpg','',NULL,NULL,NULL,1,154,154,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2plus1',154,NULL),
 	(54,'Elena','T-shirt Dames','Ayacucho','AYACUCHO_ELENA_-3112C32001_4030.jpg','/ayacucho-t-shirt-elena-3112c32001','','24,95','#DC6A8B polo2.jpg polo3.jpg','',NULL,NULL,NULL,1,157,157,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2plus1',157,NULL),
