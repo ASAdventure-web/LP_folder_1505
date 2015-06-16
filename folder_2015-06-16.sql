@@ -7,7 +7,7 @@
 #
 # Host: localhost (MySQL 5.5.42)
 # Database: folder
-# Generation Time: 2015-06-15 09:45:05 +0000
+# Generation Time: 2015-06-16 07:18:53 +0000
 # ************************************************************
 
 
@@ -392,7 +392,6 @@ VALUES
 	(80,'Fast Bike','T-shirt Heren','UAX','UAX_FAST-BIKE_3318C52008_7171.jpg','/uax-polo-fast-bike-3318c52008','','29,95','','',NULL,NULL,NULL,45,NULL,NULL,235,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2plus1',235,NULL),
 	(81,'Margot','Jurk','Patagonia','PATAGONIA_MARGOT_3136C32002_9003.jpg','/patagonia-jurk-margot-3136c32002?id_colour=283','54,95','39','','',NULL,NULL,1,NULL,NULL,238,NULL,NULL,238,238,NULL,NULL,238,NULL,'travel',238,NULL),
 	(82,'Wahia','Jurk','Jack Wolfskin','JACK-WOLFSKIN_WAHIA_3136C52021_5252.jpg','/jack-wolfskin-jurk-wahia-3136c52021','65,95','45','','',NULL,NULL,1,NULL,NULL,244,NULL,NULL,241,241,NULL,NULL,246,NULL,'travel',244,NULL),
-	(83,'Sookie','Jurk','Royal Robbins','ROYAL-ROBBINS_SOOKIE_3193c50013_4141_01_be.jpg','/royal-robbins-jurk-sookie-3136c52003','59,95','39','','',NULL,NULL,1,NULL,NULL,241,NULL,NULL,244,244,NULL,NULL,244,NULL,'travel',240,NULL),
 	(84,'Flora','Jurk','Ayacucho','AYACUCHO_FLORA_3136C52012_0412.jpg','/ayacucho-jurk-flora-3136c52012','','49,95','flora1.jpg flora2.jpg','',NULL,NULL,NULL,NULL,NULL,247,NULL,NULL,247,251,NULL,NULL,247,NULL,'travel',247,NULL),
 	(85,'Teva','Assortiment Teva originals','','teva.jpg','/teva','','','','',NULL,NULL,NULL,NULL,NULL,242,NULL,NULL,242,NULL,NULL,NULL,245,NULL,'travel',242,1),
 	(87,'Prime','Zonnebril','Sinner','SINNER_PRIME_2212a80013_1571_01.jpg','/sinner-bril-prime-2412a82003?id_colour=704','34,95','25','','',NULL,NULL,NULL,NULL,NULL,256,256,NULL,256,256,NULL,NULL,256,NULL,'travel',256,NULL),
@@ -433,7 +432,7 @@ VALUES
 	(122,'Groeneprijs','Koop een cadeaucheque t.w.v. €1 en geniet van de voordeelprijs','','groeneprijs.jpg','/content/nl/groene-voordeelprijzen','24,95','15','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'beach',90,1),
 	(123,'lookbook','','','lookbook1.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,241,NULL,NULL,NULL,NULL,NULL,'A',90,1),
 	(124,'lookbook','','','lookbook2.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,1,149,NULL,NULL,NULL,60,NULL,NULL,NULL,NULL,NULL,'A',90,1),
-	(127,'lookbook','','','lookbook3.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
+	(127,'lookbook','','','lookbook3.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,500,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
 	(129,'lookbook','','','lookbook4.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,400,NULL,NULL,NULL,NULL,NULL,NULL,63,NULL,NULL,NULL,'A',90,1),
 	(130,'lookbook','','','lookbook5.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,242,305,NULL,NULL,NULL,'A',90,1),
 	(131,'lookbook','','','lookbook6.jpg','/lookbook/follow-the-sun','','','','',NULL,NULL,NULL,1,162,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'A',90,1),
